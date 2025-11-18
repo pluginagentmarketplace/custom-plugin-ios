@@ -1,0 +1,1564 @@
+{
+  "agent_name": "Specialized Roles & Architecture Expert",
+  "version": "1.0",
+  "analysis_date": "2025-11-18",
+  "data_source": "roadmap.sh and related industry resources",
+
+  "roles": [
+    {
+      "role_id": "software-architect",
+      "role_name": "Software Architect",
+      "roadmap_url": "https://roadmap.sh/software-architect",
+      "description": "Step by step guide to becoming a Software Architect in 2025",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Understand the Basics",
+          "Architecture Knowledge",
+          "Programming & Fundamentals",
+          "Data Management",
+          "Security",
+          "Operations & DevOps",
+          "Design Patterns & Principles",
+          "System Design",
+          "Soft Skills"
+        ],
+
+        "topics": {
+          "programming_languages": {
+            "count": 6,
+            "items": ["Java", "Python", "Golang", "JavaScript/TypeScript", "Ruby", "C#"],
+            "skill_type": "technical"
+          },
+          "architecture_patterns": {
+            "count": 8,
+            "items": [
+              "Microservices",
+              "Serverless",
+              "Client-Server",
+              "Layered Architecture",
+              "Service-Oriented Architecture (SOA)",
+              "Event-Driven",
+              "Hexagonal Architecture",
+              "Distributed Systems"
+            ],
+            "skill_type": "technical"
+          },
+          "design_patterns": {
+            "count": 10,
+            "items": [
+              "Dependency Injection",
+              "Factory Pattern",
+              "Proxy Pattern",
+              "Observer Pattern",
+              "Facade Pattern",
+              "Singleton",
+              "Strategy",
+              "Adapter",
+              "Decorator",
+              "Command"
+            ],
+            "skill_type": "technical"
+          },
+          "design_principles": {
+            "count": 7,
+            "items": ["OOP", "Clean Code", "TDD", "DDD", "SOLID", "CAP Theorem", "ACID"],
+            "skill_type": "technical"
+          },
+          "databases": {
+            "count": 8,
+            "items": [
+              "PostgreSQL",
+              "MySQL",
+              "SQLite",
+              "MongoDB",
+              "Cassandra",
+              "Redis",
+              "SQL",
+              "NoSQL"
+            ],
+            "skill_type": "technical"
+          },
+          "security": {
+            "count": 4,
+            "items": ["PKI", "Hashing Algorithms", "OWASP", "Auth Strategies"],
+            "skill_type": "technical"
+          },
+          "devops_operations": {
+            "count": 8,
+            "items": [
+              "Serverless",
+              "Infrastructure as Code",
+              "Cloud Providers",
+              "Service Mesh",
+              "Linux/Unix",
+              "Containers",
+              "Cloud Design Patterns",
+              "CI/CD"
+            ],
+            "skill_type": "technical"
+          },
+          "soft_skills": {
+            "count": 5,
+            "items": [
+              "Decision-making",
+              "Stakeholder management",
+              "Communication",
+              "Leadership",
+              "Estimation"
+            ],
+            "skill_type": "soft"
+          }
+        },
+
+        "total_topics": 56,
+        "learning_progression": [
+          "Phase 1: Fundamentals (Programming, OOP, Data Structures)",
+          "Phase 2: Architecture Basics (Patterns, Principles, Design)",
+          "Phase 3: Advanced Architecture (Distributed Systems, Microservices)",
+          "Phase 4: Infrastructure & Operations (DevOps, Cloud, Security)",
+          "Phase 5: Leadership & Decision Making (Communication, Stakeholder Management)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 85,
+        "soft_skills": 15,
+        "description": "Heavily technical with critical soft skills for leadership and communication"
+      },
+
+      "prerequisites": {
+        "from_backend": ["API Design", "Database Design", "System Architecture"],
+        "from_devops": ["CI/CD", "Infrastructure as Code", "Containerization"],
+        "from_system_design": ["Scalability", "Load Balancing", "Caching"],
+        "required_experience": "5-10 years in software development"
+      },
+
+      "cross_functional_domains": [
+        "Backend Development",
+        "DevOps/SRE",
+        "System Design",
+        "Database Administration",
+        "Security Engineering",
+        "Cloud Architecture"
+      ],
+
+      "estimated_hours": 800,
+      "difficulty_level": "Advanced"
+    },
+
+    {
+      "role_id": "system-design",
+      "role_name": "System Design",
+      "roadmap_url": "https://roadmap.sh/system-design",
+      "description": "Everything you need to know about designing large scale systems",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Basic Concepts",
+          "System Components",
+          "Distributed Systems",
+          "Data Management",
+          "Performance Optimization",
+          "Scalability Patterns",
+          "Availability Patterns",
+          "Communication Patterns"
+        ],
+
+        "topics": {
+          "foundational_concepts": {
+            "count": 6,
+            "items": [
+              "Scalability",
+              "Availability",
+              "Consistency",
+              "Reliability",
+              "Fault Tolerance",
+              "Maintainability"
+            ],
+            "skill_type": "technical"
+          },
+          "system_components": {
+            "count": 10,
+            "items": [
+              "Load Balancers",
+              "Databases",
+              "Caches",
+              "Message Queues",
+              "CDNs",
+              "Proxies",
+              "Web Servers",
+              "Application Servers",
+              "Search Engines",
+              "Logging & Monitoring"
+            ],
+            "skill_type": "technical"
+          },
+          "distributed_systems": {
+            "count": 8,
+            "items": [
+              "CAP Theorem",
+              "Consistency Patterns",
+              "Availability Patterns",
+              "Partition Tolerance",
+              "Replication",
+              "Sharding",
+              "Consistent Hashing",
+              "Distributed Consensus"
+            ],
+            "skill_type": "technical"
+          },
+          "architectural_patterns": {
+            "count": 5,
+            "items": [
+              "Microservices",
+              "Monolithic",
+              "Event-Driven",
+              "Service-Oriented",
+              "Layered"
+            ],
+            "skill_type": "technical"
+          },
+          "communication_patterns": {
+            "count": 6,
+            "items": [
+              "REST APIs",
+              "GraphQL",
+              "gRPC",
+              "WebSockets",
+              "Long Polling",
+              "Message Brokers"
+            ],
+            "skill_type": "technical"
+          },
+          "performance_optimization": {
+            "count": 5,
+            "items": [
+              "Caching Strategies",
+              "Rate Limiting",
+              "Data Partitioning",
+              "Database Indexing",
+              "Asynchronous Processing"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 40,
+        "learning_progression": [
+          "Phase 1: Fundamentals (Client-Server, Basic Architecture)",
+          "Phase 2: Core Components (Databases, Caching, Load Balancing)",
+          "Phase 3: Distributed Systems (CAP, Consistency, Replication)",
+          "Phase 4: Advanced Patterns (Microservices, Event-Driven)",
+          "Phase 5: Real-World Applications (Design Instagram, Netflix, etc.)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 95,
+        "soft_skills": 5,
+        "description": "Almost entirely technical with minimal communication skills for design discussions"
+      },
+
+      "prerequisites": {
+        "from_backend": ["HTTP/HTTPS", "Database Fundamentals", "API Design"],
+        "from_computer_science": [
+          "Data Structures",
+          "Algorithms",
+          "Operating Systems",
+          "Computer Networks"
+        ],
+        "required_experience": "2-5 years in software development"
+      },
+
+      "cross_functional_domains": [
+        "Backend Development",
+        "Database Engineering",
+        "Network Engineering",
+        "DevOps/SRE",
+        "Software Architecture"
+      ],
+
+      "estimated_hours": 300,
+      "difficulty_level": "Intermediate to Advanced"
+    },
+
+    {
+      "role_id": "software-design-architecture",
+      "role_name": "Software Design & Architecture",
+      "roadmap_url": "https://roadmap.sh/software-design-architecture",
+      "description": "Step by step guide to learn software design and architecture",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Design Principles",
+          "Architectural Patterns",
+          "Design Patterns",
+          "Software Modeling",
+          "Quality Attributes",
+          "Testing Strategies",
+          "Domain Modeling",
+          "API Design"
+        ],
+
+        "topics": {
+          "design_principles": {
+            "count": 8,
+            "items": [
+              "SOLID Principles",
+              "DRY",
+              "KISS",
+              "YAGNI",
+              "Separation of Concerns",
+              "Dependency Inversion",
+              "Interface Segregation",
+              "Single Responsibility"
+            ],
+            "skill_type": "technical"
+          },
+          "architectural_patterns": {
+            "count": 9,
+            "items": [
+              "MVC",
+              "MVP",
+              "MVVM",
+              "Clean Architecture",
+              "Hexagonal Architecture",
+              "Onion Architecture",
+              "Layered Architecture",
+              "Microservices",
+              "Event-Driven"
+            ],
+            "skill_type": "technical"
+          },
+          "design_patterns": {
+            "count": 23,
+            "items": [
+              "Creational Patterns (Factory, Builder, Singleton, Prototype, Abstract Factory)",
+              "Structural Patterns (Adapter, Decorator, Facade, Proxy, Bridge, Composite, Flyweight)",
+              "Behavioral Patterns (Observer, Strategy, Command, Iterator, State, Template Method, Chain of Responsibility, Mediator, Memento, Visitor, Interpreter)"
+            ],
+            "skill_type": "technical"
+          },
+          "domain_modeling": {
+            "count": 5,
+            "items": [
+              "Domain-Driven Design",
+              "Bounded Contexts",
+              "Aggregates",
+              "Entities & Value Objects",
+              "Ubiquitous Language"
+            ],
+            "skill_type": "technical"
+          },
+          "quality_attributes": {
+            "count": 6,
+            "items": [
+              "Maintainability",
+              "Scalability",
+              "Performance",
+              "Security",
+              "Testability",
+              "Reliability"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 51,
+        "learning_progression": [
+          "Phase 1: Core Principles (SOLID, DRY, KISS)",
+          "Phase 2: Design Patterns (Creational, Structural, Behavioral)",
+          "Phase 3: Architectural Patterns (MVC, Clean Architecture, Hexagonal)",
+          "Phase 4: Domain Modeling (DDD, Bounded Contexts)",
+          "Phase 5: Quality & Testing (Maintainability, Scalability, Testing Strategies)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 92,
+        "soft_skills": 8,
+        "description": "Primarily technical with some communication skills for explaining design decisions"
+      },
+
+      "prerequisites": {
+        "from_programming": ["OOP Fundamentals", "Data Structures", "Basic Algorithms"],
+        "from_backend": ["API Design", "Database Basics"],
+        "required_experience": "2-4 years in software development"
+      },
+
+      "cross_functional_domains": [
+        "Software Development (All Stacks)",
+        "Software Architecture",
+        "Code Review",
+        "Technical Leadership"
+      ],
+
+      "estimated_hours": 400,
+      "difficulty_level": "Intermediate"
+    },
+
+    {
+      "role_id": "engineering-manager",
+      "role_name": "Engineering Manager",
+      "roadmap_url": "https://roadmap.sh/engineering-manager",
+      "description": "Step by step guide to becoming a modern Engineering Manager",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Technical Leadership",
+          "People Management",
+          "Project Management",
+          "Strategic Planning",
+          "Team Building",
+          "Communication",
+          "Process Improvement",
+          "Technical Knowledge",
+          "Business Acumen"
+        ],
+
+        "topics": {
+          "people_management": {
+            "count": 10,
+            "items": [
+              "Hiring & Recruitment",
+              "Onboarding",
+              "1-on-1s",
+              "Performance Reviews",
+              "Career Development",
+              "Coaching & Mentoring",
+              "Conflict Resolution",
+              "Team Motivation",
+              "Feedback Delivery",
+              "Retention Strategies"
+            ],
+            "skill_type": "soft"
+          },
+          "technical_leadership": {
+            "count": 8,
+            "items": [
+              "Technical Roadmapping",
+              "Architecture Decisions",
+              "Code Quality Standards",
+              "Technical Debt Management",
+              "Technology Selection",
+              "Best Practices",
+              "Technical Mentorship",
+              "System Design Review"
+            ],
+            "skill_type": "technical"
+          },
+          "project_management": {
+            "count": 7,
+            "items": [
+              "Agile/Scrum",
+              "Sprint Planning",
+              "Resource Allocation",
+              "Timeline Estimation",
+              "Risk Management",
+              "Stakeholder Management",
+              "Delivery Tracking"
+            ],
+            "skill_type": "hybrid"
+          },
+          "communication": {
+            "count": 6,
+            "items": [
+              "Written Communication",
+              "Verbal Communication",
+              "Presentation Skills",
+              "Active Listening",
+              "Cross-team Collaboration",
+              "Executive Communication"
+            ],
+            "skill_type": "soft"
+          },
+          "strategic_planning": {
+            "count": 5,
+            "items": [
+              "Product Roadmapping",
+              "OKR Setting",
+              "Team Vision",
+              "Business Alignment",
+              "Long-term Planning"
+            ],
+            "skill_type": "hybrid"
+          },
+          "process_improvement": {
+            "count": 5,
+            "items": [
+              "CI/CD Implementation",
+              "Development Workflow",
+              "Team Efficiency",
+              "Metrics & Analytics",
+              "Continuous Improvement"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 41,
+        "learning_progression": [
+          "Phase 1: Technical Foundation (Maintain technical credibility)",
+          "Phase 2: People Basics (1-on-1s, Feedback, Hiring)",
+          "Phase 3: Team Leadership (Building & Growing Teams)",
+          "Phase 4: Strategic Thinking (Roadmapping, Business Alignment)",
+          "Phase 5: Organizational Impact (Cross-team Leadership, Executive Communication)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 35,
+        "soft_skills": 65,
+        "description": "Heavily weighted toward soft skills with essential technical credibility"
+      },
+
+      "prerequisites": {
+        "from_software_development": [
+          "Programming Experience",
+          "System Design",
+          "Code Review",
+          "Technical Architecture"
+        ],
+        "from_leadership": ["Basic Team Leadership", "Project Coordination"],
+        "required_experience": "5-8 years in software development, 2+ years in lead/senior roles"
+      },
+
+      "cross_functional_domains": [
+        "All Technical Roles",
+        "Product Management",
+        "Project Management",
+        "Human Resources",
+        "Business Strategy",
+        "DevOps/SRE"
+      ],
+
+      "estimated_hours": 600,
+      "difficulty_level": "Advanced"
+    },
+
+    {
+      "role_id": "technical-writer",
+      "role_name": "Technical Writer",
+      "roadmap_url": "https://roadmap.sh/technical-writer",
+      "description": "Roadmap for anyone looking for a career in technical writing",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Writing Fundamentals",
+          "Technical Skills",
+          "Documentation Types",
+          "Tools & Technologies",
+          "Style Guides & Standards",
+          "Collaboration",
+          "Publishing",
+          "Specializations"
+        ],
+
+        "topics": {
+          "writing_fundamentals": {
+            "count": 7,
+            "items": [
+              "Language Proficiency",
+              "Written Communication",
+              "Grammar & Syntax",
+              "Clarity & Conciseness",
+              "Accuracy",
+              "Audience Analysis",
+              "Information Architecture"
+            ],
+            "skill_type": "soft"
+          },
+          "documentation_types": {
+            "count": 8,
+            "items": [
+              "API Documentation",
+              "User Manuals",
+              "Technical Specifications",
+              "Release Notes",
+              "Tutorials & How-tos",
+              "Training Materials",
+              "Knowledge Base Articles",
+              "README Files"
+            ],
+            "skill_type": "technical"
+          },
+          "tools_technologies": {
+            "count": 12,
+            "items": [
+              "Git/Version Control",
+              "Markdown",
+              "Swagger/OpenAPI",
+              "Postman",
+              "Redoc",
+              "Docusaurus",
+              "MadCap Flare",
+              "Adobe FrameMaker",
+              "Editing Tools (Grammarly)",
+              "Plagiarism Checkers",
+              "Screen Capture Tools",
+              "Diagram Tools (draw.io, Lucidchart)"
+            ],
+            "skill_type": "technical"
+          },
+          "style_guides": {
+            "count": 5,
+            "items": [
+              "Google Developer Style Guide",
+              "Microsoft Style Guide",
+              "AP Stylebook",
+              "Chicago Manual of Style",
+              "Custom Style Guides"
+            ],
+            "skill_type": "soft"
+          },
+          "technical_expertise": {
+            "count": 6,
+            "items": [
+              "Basic Programming Knowledge",
+              "API Understanding",
+              "JSON/XML",
+              "HTTP/REST",
+              "Software Development Lifecycle",
+              "Version Control Systems"
+            ],
+            "skill_type": "technical"
+          },
+          "specializations": {
+            "count": 5,
+            "items": [
+              "API Documentation Specialist",
+              "UX Writing",
+              "Content Strategy",
+              "Developer Advocacy",
+              "Educational Content Creation"
+            ],
+            "skill_type": "hybrid"
+          }
+        },
+
+        "total_topics": 43,
+        "learning_progression": [
+          "Phase 1: Writing Fundamentals (Grammar, Style, Clarity)",
+          "Phase 2: Basic Technical Knowledge (Programming Basics, APIs)",
+          "Phase 3: Tools Mastery (Git, Markdown, Documentation Tools)",
+          "Phase 4: Documentation Types (API Docs, Tutorials, Guides)",
+          "Phase 5: Specialization (API Specialist, UX Writing, Content Strategy)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 45,
+        "soft_skills": 55,
+        "description": "Balanced mix with emphasis on communication and technical understanding"
+      },
+
+      "prerequisites": {
+        "from_writing": ["Excellent Writing Skills", "Editing Experience"],
+        "from_technical": ["Basic Programming Concepts", "Software Terminology"],
+        "required_experience": "1-3 years in writing or related field"
+      },
+
+      "cross_functional_domains": [
+        "Software Development (All Stacks)",
+        "Developer Relations",
+        "Product Management",
+        "UX/UI Design",
+        "Engineering Management",
+        "API Development"
+      ],
+
+      "estimated_hours": 350,
+      "difficulty_level": "Beginner to Intermediate"
+    },
+
+    {
+      "role_id": "code-review",
+      "role_name": "Code Review Best Practices",
+      "roadmap_url": "https://roadmap.sh/best-practices/code-review",
+      "description": "Detailed list of best practices for effective code reviews",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Code Review Process",
+          "Review Checklist",
+          "Communication & Feedback",
+          "Tools & Automation",
+          "Security & Quality",
+          "Performance",
+          "Best Practices",
+          "Team Culture"
+        ],
+
+        "topics": {
+          "review_process": {
+            "count": 6,
+            "items": [
+              "Document & Standardize Process",
+              "Clear Objectives",
+              "Review Size Guidelines",
+              "Timing & Frequency",
+              "Review Roles",
+              "Approval Workflow"
+            ],
+            "skill_type": "hybrid"
+          },
+          "review_checklist": {
+            "count": 15,
+            "items": [
+              "Functionality",
+              "Code Logic",
+              "Error Handling",
+              "Naming Conventions",
+              "Code Readability",
+              "Code Duplication",
+              "Algorithm Efficiency",
+              "Memory Management",
+              "Security Vulnerabilities",
+              "SQL Injection Prevention",
+              "Input Validation",
+              "Sensitive Data Handling",
+              "Test Coverage",
+              "Edge Cases",
+              "Documentation"
+            ],
+            "skill_type": "technical"
+          },
+          "communication_feedback": {
+            "count": 7,
+            "items": [
+              "Constructive Feedback",
+              "Respectful Communication",
+              "Explaining Reasoning",
+              "Teaching Junior Developers",
+              "Ask Questions",
+              "Praise Good Code",
+              "Focus on Learning"
+            ],
+            "skill_type": "soft"
+          },
+          "tools_automation": {
+            "count": 5,
+            "items": [
+              "Linting Tools",
+              "Static Analysis",
+              "Automated Testing",
+              "CI/CD Integration",
+              "Code Review Platforms (GitHub, GitLab, Bitbucket)"
+            ],
+            "skill_type": "technical"
+          },
+          "security_quality": {
+            "count": 8,
+            "items": [
+              "OWASP Top 10",
+              "Secure Coding Practices",
+              "Authentication & Authorization",
+              "Data Encryption",
+              "Dependency Security",
+              "Code Quality Metrics",
+              "Technical Debt Assessment",
+              "Compliance Requirements"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 41,
+        "learning_progression": [
+          "Phase 1: Understanding Code Review Purpose",
+          "Phase 2: Learning Review Checklist Items",
+          "Phase 3: Effective Communication Techniques",
+          "Phase 4: Tool & Automation Mastery",
+          "Phase 5: Advanced Security & Quality Assessment"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 70,
+        "soft_skills": 30,
+        "description": "Primarily technical with important soft skills for effective communication"
+      },
+
+      "prerequisites": {
+        "from_programming": [
+          "Proficiency in Target Language",
+          "Understanding of Best Practices",
+          "Code Quality Awareness"
+        ],
+        "from_software_development": ["SDLC Knowledge", "Testing Fundamentals"],
+        "required_experience": "2-4 years in software development"
+      },
+
+      "cross_functional_domains": [
+        "All Software Development Roles",
+        "Software Architecture",
+        "DevOps/SRE",
+        "Security Engineering",
+        "Quality Assurance",
+        "Engineering Management"
+      ],
+
+      "estimated_hours": 150,
+      "difficulty_level": "Intermediate"
+    },
+
+    {
+      "role_id": "devrel",
+      "role_name": "Developer Relations (DevRel)",
+      "roadmap_url": "https://roadmap.sh/devrel",
+      "description": "Step by step guide to becoming a Developer Advocate in 2025",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Technical Skills",
+          "Communication",
+          "Community Building",
+          "Content Creation",
+          "Event Management",
+          "Developer Advocacy",
+          "Product Feedback",
+          "Metrics & Analytics",
+          "Marketing & Growth"
+        ],
+
+        "topics": {
+          "technical_skills": {
+            "count": 7,
+            "items": [
+              "Programming Proficiency",
+              "API Understanding",
+              "Technical Documentation",
+              "Code Examples",
+              "SDK/Library Usage",
+              "DevTools Familiarity",
+              "Platform Knowledge"
+            ],
+            "skill_type": "technical"
+          },
+          "communication": {
+            "count": 8,
+            "items": [
+              "Public Speaking",
+              "Technical Writing",
+              "Video Creation",
+              "Live Streaming",
+              "Social Media Engagement",
+              "Blogging",
+              "Podcasting",
+              "Clear Explanations"
+            ],
+            "skill_type": "soft"
+          },
+          "community_building": {
+            "count": 9,
+            "items": [
+              "Community Management",
+              "Discord/Slack Moderation",
+              "Forum Management",
+              "Conflict Resolution",
+              "Community Guidelines",
+              "Engagement Strategies",
+              "Ambassador Programs",
+              "Developer Champions",
+              "Networking"
+            ],
+            "skill_type": "soft"
+          },
+          "content_creation": {
+            "count": 7,
+            "items": [
+              "Tutorials & How-tos",
+              "Sample Projects",
+              "Video Tutorials",
+              "Blog Posts",
+              "Documentation",
+              "Code Snippets",
+              "Live Coding Sessions"
+            ],
+            "skill_type": "hybrid"
+          },
+          "event_management": {
+            "count": 6,
+            "items": [
+              "Conference Speaking",
+              "Meetup Organization",
+              "Workshop Facilitation",
+              "Hackathon Hosting",
+              "Webinar Production",
+              "Booth Management"
+            ],
+            "skill_type": "soft"
+          },
+          "developer_advocacy": {
+            "count": 5,
+            "items": [
+              "Product Evangelism",
+              "Developer Feedback Loop",
+              "Feature Requests",
+              "Bug Reporting",
+              "Developer Experience Improvement"
+            ],
+            "skill_type": "hybrid"
+          },
+          "metrics_analytics": {
+            "count": 4,
+            "items": [
+              "Community Growth Tracking",
+              "Engagement Metrics",
+              "Content Performance",
+              "Developer Satisfaction"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 46,
+        "learning_progression": [
+          "Phase 1: Technical Foundation (Programming, APIs, Documentation)",
+          "Phase 2: Communication Skills (Writing, Speaking, Video)",
+          "Phase 3: Community Basics (Forums, Social Media, Engagement)",
+          "Phase 4: Content Creation (Tutorials, Blogs, Videos)",
+          "Phase 5: Advanced Advocacy (Events, Programs, Strategy)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 40,
+        "soft_skills": 60,
+        "description": "Soft skills dominant with solid technical foundation required"
+      },
+
+      "prerequisites": {
+        "from_software_development": [
+          "Programming Experience",
+          "API Knowledge",
+          "Technical Documentation"
+        ],
+        "from_communication": ["Writing Skills", "Public Speaking Basics"],
+        "required_experience": "3-5 years in software development or related technical role"
+      },
+
+      "cross_functional_domains": [
+        "Software Development (All Stacks)",
+        "Technical Writing",
+        "Product Management",
+        "Marketing",
+        "Community Management",
+        "Engineering",
+        "Sales Engineering"
+      ],
+
+      "estimated_hours": 450,
+      "difficulty_level": "Intermediate"
+    },
+
+    {
+      "role_id": "blockchain",
+      "role_name": "Blockchain Developer",
+      "roadmap_url": "https://roadmap.sh/blockchain",
+      "description": "Step by step guide to becoming a blockchain developer in 2025",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "Blockchain Fundamentals",
+          "Cryptography",
+          "Smart Contracts",
+          "Web3 Development",
+          "Consensus Mechanisms",
+          "DeFi & NFTs",
+          "Blockchain Platforms",
+          "Development Tools",
+          "Security & Auditing"
+        ],
+
+        "topics": {
+          "blockchain_fundamentals": {
+            "count": 8,
+            "items": [
+              "Distributed Ledger Technology",
+              "Blocks & Transactions",
+              "Nodes & Networks",
+              "Merkle Trees",
+              "Hash Functions",
+              "Public/Private Keys",
+              "Digital Signatures",
+              "Blockchain Structure"
+            ],
+            "skill_type": "technical"
+          },
+          "cryptography": {
+            "count": 7,
+            "items": [
+              "SHA-256",
+              "Public-Key Cryptography",
+              "Elliptic Curve Cryptography (ECC)",
+              "RSA",
+              "AES Encryption",
+              "Digital Signatures",
+              "Key Management"
+            ],
+            "skill_type": "technical"
+          },
+          "smart_contracts": {
+            "count": 10,
+            "items": [
+              "Solidity",
+              "Vyper",
+              "Rust (for Solana)",
+              "Contract Structure",
+              "Inheritance",
+              "Modifiers",
+              "Events",
+              "Gas Optimization",
+              "Security Patterns",
+              "Testing"
+            ],
+            "skill_type": "technical"
+          },
+          "web3_development": {
+            "count": 8,
+            "items": [
+              "Web3.js",
+              "Ethers.js",
+              "Truffle",
+              "Hardhat",
+              "Remix IDE",
+              "MetaMask Integration",
+              "Wallet Connection",
+              "dApp Development"
+            ],
+            "skill_type": "technical"
+          },
+          "consensus_mechanisms": {
+            "count": 6,
+            "items": [
+              "Proof of Work (PoW)",
+              "Proof of Stake (PoS)",
+              "Delegated Proof of Stake (DPoS)",
+              "Proof of Authority (PoA)",
+              "Practical Byzantine Fault Tolerance (PBFT)",
+              "Consensus Algorithms"
+            ],
+            "skill_type": "technical"
+          },
+          "defi_nfts": {
+            "count": 8,
+            "items": [
+              "DeFi Protocols (Uniswap, Aave, Compound)",
+              "Liquidity Pools",
+              "Yield Farming",
+              "NFT Standards (ERC-721, ERC-1155)",
+              "NFT Marketplaces",
+              "Token Standards (ERC-20)",
+              "DEX Development",
+              "Smart Contract Interactions"
+            ],
+            "skill_type": "technical"
+          },
+          "blockchain_platforms": {
+            "count": 7,
+            "items": [
+              "Ethereum",
+              "Binance Smart Chain",
+              "Polygon",
+              "Solana",
+              "Avalanche",
+              "Cardano",
+              "Polkadot"
+            ],
+            "skill_type": "technical"
+          },
+          "security_auditing": {
+            "count": 6,
+            "items": [
+              "Smart Contract Vulnerabilities",
+              "Reentrancy Attacks",
+              "Integer Overflow/Underflow",
+              "Access Control",
+              "Security Best Practices",
+              "Audit Tools (Mythril, Slither)"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 60,
+        "learning_progression": [
+          "Phase 1: Blockchain Basics (DLT, Blocks, Transactions)",
+          "Phase 2: Cryptography Fundamentals (Hashing, Encryption, Signatures)",
+          "Phase 3: Smart Contract Development (Solidity, Testing, Deployment)",
+          "Phase 4: Web3 & dApp Development (Web3.js, Wallet Integration)",
+          "Phase 5: Advanced Topics (DeFi, NFTs, Security, Auditing)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 97,
+        "soft_skills": 3,
+        "description": "Extremely technical with minimal soft skills required"
+      },
+
+      "prerequisites": {
+        "from_programming": [
+          "JavaScript/TypeScript",
+          "Object-Oriented Programming",
+          "Data Structures",
+          "Algorithms"
+        ],
+        "from_web_development": ["Frontend Development", "Backend Development", "APIs"],
+        "from_cryptography": ["Basic Cryptography Concepts"],
+        "required_experience": "2-4 years in software development"
+      },
+
+      "cross_functional_domains": [
+        "Backend Development",
+        "Frontend Development",
+        "Cryptography",
+        "Security Engineering",
+        "Distributed Systems",
+        "Financial Technology"
+      ],
+
+      "estimated_hours": 700,
+      "difficulty_level": "Advanced"
+    },
+
+    {
+      "role_id": "cyber-security",
+      "role_name": "Cyber Security Expert",
+      "roadmap_url": "https://roadmap.sh/cyber-security",
+      "description": "Step by step guide to becoming a Cyber Security Expert in 2025",
+
+      "roadmap_structure": {
+        "main_categories": [
+          "IT Fundamentals",
+          "Networking Security",
+          "Cryptography",
+          "Security Tools",
+          "Penetration Testing",
+          "Incident Response",
+          "Compliance & Governance",
+          "Threat Intelligence",
+          "Cloud Security"
+        ],
+
+        "topics": {
+          "it_fundamentals": {
+            "count": 7,
+            "items": [
+              "Computer Hardware",
+              "Operating Systems (Linux, Windows)",
+              "Networking Basics",
+              "TCP/IP",
+              "DNS",
+              "HTTP/HTTPS",
+              "Command Line"
+            ],
+            "skill_type": "technical"
+          },
+          "network_security": {
+            "count": 9,
+            "items": [
+              "Firewalls",
+              "VPNs",
+              "IDS/IPS",
+              "Network Monitoring",
+              "Port Scanning",
+              "Network Protocols",
+              "WiFi Security",
+              "Network Segmentation",
+              "DMZ"
+            ],
+            "skill_type": "technical"
+          },
+          "cryptography": {
+            "count": 8,
+            "items": [
+              "Symmetric Encryption (AES)",
+              "Asymmetric Encryption (RSA, ECC)",
+              "Hashing (SHA-256, MD5)",
+              "Digital Signatures",
+              "PKI",
+              "SSL/TLS",
+              "Key Management",
+              "Cryptanalysis"
+            ],
+            "skill_type": "technical"
+          },
+          "security_tools": {
+            "count": 12,
+            "items": [
+              "Wireshark",
+              "Nmap",
+              "Metasploit",
+              "Burp Suite",
+              "OWASP ZAP",
+              "Snort",
+              "Splunk",
+              "Nessus",
+              "Kali Linux",
+              "Aircrack-ng",
+              "John the Ripper",
+              "Hashcat"
+            ],
+            "skill_type": "technical"
+          },
+          "penetration_testing": {
+            "count": 8,
+            "items": [
+              "Reconnaissance",
+              "Scanning & Enumeration",
+              "Vulnerability Assessment",
+              "Exploitation",
+              "Post-Exploitation",
+              "Reporting",
+              "Web Application Testing",
+              "Social Engineering"
+            ],
+            "skill_type": "technical"
+          },
+          "web_application_security": {
+            "count": 10,
+            "items": [
+              "OWASP Top 10 (2025)",
+              "SQL Injection",
+              "XSS (Cross-Site Scripting)",
+              "CSRF",
+              "Authentication Attacks",
+              "Authorization Bypass",
+              "Security Misconfiguration",
+              "Insecure Deserialization",
+              "Software Supply Chain Vulnerabilities",
+              "API Security"
+            ],
+            "skill_type": "technical"
+          },
+          "incident_response": {
+            "count": 6,
+            "items": [
+              "Incident Detection",
+              "Containment",
+              "Eradication",
+              "Recovery",
+              "Forensics",
+              "Log Analysis"
+            ],
+            "skill_type": "technical"
+          },
+          "compliance_governance": {
+            "count": 5,
+            "items": [
+              "GDPR",
+              "HIPAA",
+              "PCI-DSS",
+              "ISO 27001",
+              "Security Frameworks (NIST)"
+            ],
+            "skill_type": "technical"
+          },
+          "cloud_security": {
+            "count": 6,
+            "items": [
+              "AWS Security",
+              "Azure Security",
+              "GCP Security",
+              "Cloud Access Security Brokers (CASB)",
+              "Container Security",
+              "Serverless Security"
+            ],
+            "skill_type": "technical"
+          }
+        },
+
+        "total_topics": 71,
+        "learning_progression": [
+          "Phase 1: IT Fundamentals (OS, Networking, Command Line)",
+          "Phase 2: Network Security (Firewalls, IDS/IPS, Monitoring)",
+          "Phase 3: Cryptography & Web Security (Encryption, OWASP Top 10)",
+          "Phase 4: Penetration Testing (Tools, Techniques, Methodologies)",
+          "Phase 5: Advanced Topics (Incident Response, Cloud Security, Compliance)"
+        ]
+      },
+
+      "skill_balance": {
+        "technical_skills": 90,
+        "soft_skills": 10,
+        "description": "Heavily technical with some communication skills for reporting and stakeholder management"
+      },
+
+      "prerequisites": {
+        "from_it": ["Computer Networking", "Operating Systems", "System Administration"],
+        "from_programming": ["Scripting (Python, Bash)", "Basic Programming"],
+        "from_web_development": ["HTTP/HTTPS", "Web Applications"],
+        "required_experience": "1-3 years in IT or related field"
+      },
+
+      "cross_functional_domains": [
+        "Network Engineering",
+        "System Administration",
+        "DevOps/SRE",
+        "Software Development",
+        "Cloud Architecture",
+        "Compliance",
+        "Risk Management"
+      ],
+
+      "estimated_hours": 900,
+      "difficulty_level": "Intermediate to Advanced"
+    }
+  ],
+
+  "cross_functional_analysis": {
+    "shared_knowledge_domains": [
+      {
+        "domain": "System Architecture & Design",
+        "applicable_roles": [
+          "software-architect",
+          "system-design",
+          "software-design-architecture",
+          "engineering-manager"
+        ],
+        "key_topics": [
+          "Microservices",
+          "Distributed Systems",
+          "Design Patterns",
+          "Scalability",
+          "Load Balancing"
+        ]
+      },
+      {
+        "domain": "Security",
+        "applicable_roles": [
+          "software-architect",
+          "cyber-security",
+          "blockchain",
+          "code-review"
+        ],
+        "key_topics": [
+          "Authentication & Authorization",
+          "Cryptography",
+          "OWASP Top 10",
+          "Secure Coding",
+          "Vulnerability Assessment"
+        ]
+      },
+      {
+        "domain": "Communication & Documentation",
+        "applicable_roles": [
+          "technical-writer",
+          "devrel",
+          "engineering-manager",
+          "software-architect"
+        ],
+        "key_topics": [
+          "Technical Writing",
+          "Documentation",
+          "Stakeholder Communication",
+          "Presentation Skills"
+        ]
+      },
+      {
+        "domain": "Development Operations",
+        "applicable_roles": [
+          "software-architect",
+          "engineering-manager",
+          "cyber-security",
+          "code-review"
+        ],
+        "key_topics": [
+          "CI/CD",
+          "Infrastructure as Code",
+          "Containerization",
+          "Cloud Platforms"
+        ]
+      },
+      {
+        "domain": "Database & Data Management",
+        "applicable_roles": [
+          "software-architect",
+          "system-design",
+          "blockchain",
+          "cyber-security"
+        ],
+        "key_topics": [
+          "SQL/NoSQL",
+          "Data Partitioning",
+          "Replication",
+          "Caching",
+          "Data Security"
+        ]
+      },
+      {
+        "domain": "Web Technologies & APIs",
+        "applicable_roles": [
+          "technical-writer",
+          "devrel",
+          "blockchain",
+          "cyber-security",
+          "code-review"
+        ],
+        "key_topics": [
+          "REST APIs",
+          "HTTP/HTTPS",
+          "API Documentation",
+          "API Security",
+          "Web3"
+        ]
+      }
+    ],
+
+    "role_interaction_matrix": {
+      "software-architect_to_engineering-manager": "Technical roadmapping, architecture decisions, team technical direction",
+      "technical-writer_to_devrel": "Documentation creation, community content, developer education",
+      "cyber-security_to_software-architect": "Security architecture, threat modeling, secure design patterns",
+      "blockchain_to_cyber-security": "Cryptography, security auditing, vulnerability assessment",
+      "code-review_to_engineering-manager": "Quality standards, team development, process improvement",
+      "devrel_to_technical-writer": "Developer-focused content, API documentation, tutorial creation",
+      "system-design_to_software-architect": "Scalability patterns, distributed systems, architecture decisions"
+    }
+  },
+
+  "learning_prerequisites_map": {
+    "foundational_skills": {
+      "description": "Skills needed before starting any specialized role",
+      "topics": [
+        "Programming Fundamentals",
+        "Data Structures & Algorithms",
+        "Version Control (Git)",
+        "Basic Networking",
+        "Operating Systems Basics",
+        "Command Line Proficiency"
+      ],
+      "estimated_hours": 200
+    },
+
+    "intermediate_prerequisites": {
+      "backend_development": {
+        "for_roles": ["software-architect", "system-design", "devrel", "blockchain"],
+        "topics": ["API Development", "Database Design", "Server Architecture", "Authentication"],
+        "estimated_hours": 300
+      },
+      "system_administration": {
+        "for_roles": ["cyber-security", "software-architect", "engineering-manager"],
+        "topics": ["Linux Administration", "Networking", "Security Basics", "Monitoring"],
+        "estimated_hours": 250
+      },
+      "software_development": {
+        "for_roles": ["engineering-manager", "code-review", "technical-writer", "devrel"],
+        "topics": ["SDLC", "Agile Methodologies", "Testing", "Code Quality"],
+        "estimated_hours": 300
+      }
+    },
+
+    "role_specific_prerequisites": {
+      "software-architect": ["5+ years backend/full-stack development", "System design experience", "Production systems management"],
+      "system-design": ["2+ years software development", "Database experience", "API development"],
+      "software-design-architecture": ["2+ years programming", "OOP mastery", "Design patterns basics"],
+      "engineering-manager": ["5+ years software development", "Technical leadership experience", "Team collaboration"],
+      "technical-writer": ["Strong writing skills", "Basic programming knowledge", "Technical aptitude"],
+      "code-review": ["2+ years programming", "Code quality awareness", "Collaboration experience"],
+      "devrel": ["3+ years software development", "Public speaking basics", "Community engagement"],
+      "blockchain": ["2+ years programming (JavaScript)", "Cryptography basics", "Web development"],
+      "cyber-security": ["1+ years IT experience", "Networking fundamentals", "Security mindset"]
+    }
+  },
+
+  "estimated_learning_hours_summary": {
+    "quick_reference": {
+      "technical-writer": "350 hours (Beginner-Intermediate)",
+      "code-review": "150 hours (Intermediate)",
+      "system-design": "300 hours (Intermediate-Advanced)",
+      "software-design-architecture": "400 hours (Intermediate)",
+      "devrel": "450 hours (Intermediate)",
+      "engineering-manager": "600 hours (Advanced)",
+      "blockchain": "700 hours (Advanced)",
+      "software-architect": "800 hours (Advanced)",
+      "cyber-security": "900 hours (Intermediate-Advanced)"
+    },
+
+    "note": "Hours are estimates for focused learning after prerequisites are met. Real-world mastery requires hands-on experience and continuous learning."
+  },
+
+  "agent_capabilities": [
+    "Architectural Thinking & System Design",
+    "Code Review & Quality Assessment",
+    "Technical Leadership & Management",
+    "Security Analysis & Threat Modeling",
+    "Blockchain & Decentralized Systems",
+    "Technical Documentation & Communication",
+    "Developer Community Building",
+    "Penetration Testing & Vulnerability Assessment",
+    "Distributed Systems Design",
+    "DevOps & Infrastructure Architecture",
+    "API Design & Documentation",
+    "Smart Contract Development & Auditing",
+    "Incident Response & Security Operations",
+    "Strategic Technical Planning",
+    "Cross-functional Collaboration"
+  ],
+
+  "suggested_skills": [
+    "design-thinking",
+    "communication",
+    "security-analysis",
+    "system-architecture",
+    "code-quality-assessment",
+    "technical-writing",
+    "public-speaking",
+    "community-management",
+    "cryptography",
+    "penetration-testing",
+    "smart-contract-development",
+    "incident-response",
+    "leadership",
+    "strategic-planning",
+    "stakeholder-management",
+    "api-design",
+    "distributed-systems",
+    "cloud-architecture",
+    "devops-practices",
+    "agile-methodologies"
+  ],
+
+  "integration_patterns": {
+    "architecture_cluster": {
+      "roles": ["software-architect", "system-design", "software-design-architecture"],
+      "shared_skills": ["Design Patterns", "Scalability", "Microservices", "Distributed Systems"],
+      "career_path": "Developer → Software Designer → System Designer → Software Architect",
+      "estimated_total_hours": 1500
+    },
+
+    "management_cluster": {
+      "roles": ["engineering-manager", "software-architect", "devrel"],
+      "shared_skills": ["Leadership", "Communication", "Strategic Planning", "Technical Vision"],
+      "career_path": "Developer → Tech Lead → Engineering Manager → Director of Engineering",
+      "estimated_total_hours": 1850
+    },
+
+    "security_cluster": {
+      "roles": ["cyber-security", "blockchain", "software-architect"],
+      "shared_skills": ["Cryptography", "Security Best Practices", "Threat Modeling", "Secure Architecture"],
+      "career_path": "IT Professional → Security Analyst → Security Engineer → Security Architect",
+      "estimated_total_hours": 2400
+    },
+
+    "communication_cluster": {
+      "roles": ["technical-writer", "devrel", "engineering-manager"],
+      "shared_skills": ["Technical Writing", "Public Speaking", "Community Engagement", "Documentation"],
+      "career_path": "Writer/Developer → Technical Writer → Developer Advocate → DevRel Manager",
+      "estimated_total_hours": 1400
+    }
+  },
+
+  "metadata": {
+    "total_roles_analyzed": 9,
+    "total_unique_topics": 389,
+    "average_topics_per_role": 43,
+    "technical_heavy_roles": ["blockchain", "cyber-security", "system-design", "software-architect"],
+    "balanced_roles": ["technical-writer", "devrel", "code-review"],
+    "soft_skill_heavy_roles": ["engineering-manager", "devrel"],
+    "cross_functional_opportunities": "High - all roles integrate with multiple other specializations",
+    "industry_demand": "All roles show strong demand in 2025 tech market"
+  }
+}

@@ -1,0 +1,1496 @@
+{
+  "agent_name": "Mobile & Game Development Specialist",
+  "agent_description": "Comprehensive specialist covering mobile development (iOS, Android, Flutter), game development (client and server-side), quality assurance, UX design, design systems, and product management",
+  "version": "1.0.0",
+  "last_updated": "2025-11-18",
+  "roles": [
+    {
+      "role_id": "android",
+      "role_name": "Android Developer",
+      "platform_type": "platform_specific",
+      "platform_target": "Android",
+      "role_category": "mobile_development",
+      "estimated_topics": 150,
+      "learning_hours": 400,
+      "difficulty_level": "intermediate_to_advanced",
+      "primary_structure": {
+        "entry_point": "Pick a Language (Kotlin/Java)",
+        "main_sections": [
+          {
+            "section": "Language Selection",
+            "topics": ["Kotlin", "Java"],
+            "recommendation": "Kotlin (preferred), Java (legacy)"
+          },
+          {
+            "section": "The Fundamentals",
+            "topics": [
+              "IDE Setup",
+              "Kotlin Basics",
+              "OOP Concepts",
+              "Data Structures",
+              "Gradle Build System",
+              "Hello World App"
+            ]
+          },
+          {
+            "section": "Architecture Components",
+            "topics": [
+              "Activities",
+              "Services",
+              "Intents",
+              "Fragments",
+              "Lifecycles",
+              "UI Elements (TextViews, Buttons, Dialogs, RecyclerView)"
+            ]
+          },
+          {
+            "section": "Design & Architecture",
+            "topics": [
+              "MVC",
+              "MVP",
+              "MVVM",
+              "MVI",
+              "Reactive Programming (RxJava, RxKotlin, Flow, Coroutines)"
+            ]
+          },
+          {
+            "section": "Storage",
+            "topics": [
+              "SharedPreferences",
+              "Room Database",
+              "DataStore",
+              "FileSystem"
+            ]
+          },
+          {
+            "section": "Network",
+            "topics": [
+              "Retrofit",
+              "OkHttp",
+              "Apollo-Android (GraphQL)"
+            ]
+          },
+          {
+            "section": "Testing",
+            "topics": [
+              "JUnit",
+              "Espresso",
+              "Linting (Ktlint, Detekt)",
+              "Debugging (Timber, Leak Canary, Chucker)"
+            ]
+          },
+          {
+            "section": "Distribution",
+            "topics": [
+              "Google Play Store",
+              "Firebase Distribution"
+            ]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "android_only": [
+          "Android SDK",
+          "Gradle Build System",
+          "Android Jetpack",
+          "Material Design Components",
+          "Android Lifecycle",
+          "Google Play Services",
+          "Firebase for Android",
+          "Android Debug Bridge (ADB)"
+        ],
+        "transferable_skills": [
+          "OOP Concepts",
+          "Data Structures",
+          "Kotlin (can be used in multiplatform)",
+          "Reactive Programming",
+          "REST APIs",
+          "GraphQL",
+          "Database Management",
+          "Testing Practices"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Basic programming knowledge",
+          "Understanding of OOP",
+          "Familiarity with XML"
+        ],
+        "recommended": [
+          "Java or Kotlin experience",
+          "Git version control",
+          "Basic understanding of mobile UI/UX"
+        ],
+        "related_roadmaps": [
+          "kotlin",
+          "java",
+          "backend",
+          "sql"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_ios": ["REST APIs", "JSON parsing", "MVC/MVVM patterns", "Push notifications", "Local storage"],
+        "with_flutter": ["Dart (similar to Kotlin)", "Material Design", "Reactive patterns", "Firebase"],
+        "with_react_native": ["JavaScript ecosystem", "Component architecture", "Hot reload concept"]
+      },
+      "career_progression": [
+        "Junior Android Developer",
+        "Mid-level Android Developer",
+        "Senior Android Developer",
+        "Lead Android Engineer",
+        "Mobile Architect",
+        "Engineering Manager"
+      ]
+    },
+    {
+      "role_id": "ios",
+      "role_name": "iOS Developer",
+      "platform_type": "platform_specific",
+      "platform_target": "iOS",
+      "role_category": "mobile_development",
+      "estimated_topics": 120,
+      "learning_hours": 380,
+      "difficulty_level": "intermediate_to_advanced",
+      "primary_structure": {
+        "entry_point": "Pick a Language (Swift/Objective-C)",
+        "main_sections": [
+          {
+            "section": "Language Selection",
+            "topics": ["Swift (recommended)", "Objective-C (legacy)", "Swift-ObjC interoperability"]
+          },
+          {
+            "section": "Fundamentals",
+            "topics": [
+              "Swift Basics",
+              "OOP Concepts",
+              "Functional Programming",
+              "Memory Management",
+              "Concurrency"
+            ]
+          },
+          {
+            "section": "iOS Architecture",
+            "topics": [
+              "Core OS",
+              "Core Services",
+              "Cocoa Touch",
+              "Media Frameworks (Graphics, Animation, Audio, Metal)"
+            ]
+          },
+          {
+            "section": "Development Tools",
+            "topics": [
+              "Xcode Installation & Setup",
+              "Interface Builder",
+              "Debugging (Breakpoints, Debug Navigator)",
+              "Outlets & Actions",
+              "Auto Layout"
+            ]
+          },
+          {
+            "section": "UI Frameworks",
+            "topics": [
+              "UIKit (Components, Views, View Controllers, Navigation, Storyboards)",
+              "SwiftUI (Declarative syntax, State management, Data binding)"
+            ]
+          },
+          {
+            "section": "Advanced Topics",
+            "topics": [
+              "Core Animation",
+              "Lottie Animations",
+              "Reactive Programming (Combine, RxSwift)",
+              "Architectural Patterns (MVC, MVP, MVVM, VIPER, TCA)"
+            ]
+          },
+          {
+            "section": "Version Control",
+            "topics": ["Git", "GitHub"]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "ios_only": [
+          "Swift Programming Language",
+          "Xcode IDE",
+          "Interface Builder",
+          "Cocoa Touch Framework",
+          "Core Data",
+          "SwiftUI",
+          "UIKit",
+          "App Store Distribution",
+          "TestFlight",
+          "Human Interface Guidelines",
+          "Metal Graphics API"
+        ],
+        "transferable_skills": [
+          "OOP Concepts",
+          "Functional Programming",
+          "Memory Management",
+          "MVC/MVVM Architecture",
+          "REST APIs",
+          "Reactive Programming",
+          "Git Version Control",
+          "Unit Testing"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Basic programming knowledge",
+          "Understanding of OOP",
+          "macOS access (for Xcode)"
+        ],
+        "recommended": [
+          "Swift programming basics",
+          "Git version control",
+          "Basic understanding of mobile UI/UX",
+          "Apple Developer Account ($99/year for distribution)"
+        ],
+        "related_roadmaps": [
+          "swift",
+          "backend",
+          "ux-design"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_android": ["REST APIs", "JSON parsing", "MVC/MVVM patterns", "Push notifications", "Local storage"],
+        "with_flutter": ["Reactive patterns", "Declarative UI (SwiftUI vs Flutter)", "Hot reload"],
+        "with_react_native": ["JavaScript ecosystem", "Component architecture"]
+      },
+      "career_progression": [
+        "Junior iOS Developer",
+        "Mid-level iOS Developer",
+        "Senior iOS Developer",
+        "Lead iOS Engineer",
+        "Mobile Architect",
+        "Engineering Manager"
+      ]
+    },
+    {
+      "role_id": "flutter",
+      "role_name": "Flutter Developer",
+      "platform_type": "cross_platform",
+      "platform_target": "iOS, Android, Web, Desktop",
+      "role_category": "mobile_development",
+      "estimated_topics": 110,
+      "learning_hours": 320,
+      "difficulty_level": "intermediate",
+      "primary_structure": {
+        "entry_point": "Basics of Dart",
+        "main_sections": [
+          {
+            "section": "Basics of Dart",
+            "topics": ["Dart fundamentals", "OOP in Dart", "Async programming"]
+          },
+          {
+            "section": "Development Environment",
+            "topics": ["VS Code", "Android Studio", "IntelliJ IDEA"]
+          },
+          {
+            "section": "Widgets",
+            "topics": ["Stateless Widgets", "Stateful Widgets", "Built-in Widgets", "Custom Widgets"]
+          },
+          {
+            "section": "Working with Assets",
+            "topics": ["Images", "Fonts", "Local files"]
+          },
+          {
+            "section": "Version Control Systems",
+            "topics": ["Git", "GitHub"]
+          },
+          {
+            "section": "Design Principles",
+            "topics": ["Material Design", "Cupertino (iOS-style)", "Custom themes"]
+          },
+          {
+            "section": "Package Managers",
+            "topics": ["pub.dev", "Dependency management"]
+          },
+          {
+            "section": "Working with APIs",
+            "topics": ["HTTP requests", "REST APIs", "GraphQL"]
+          },
+          {
+            "section": "Storage",
+            "topics": [
+              "Firebase (Authentication, Storage, Firestore, Push Notifications)",
+              "Local storage",
+              "SQLite"
+            ]
+          },
+          {
+            "section": "Advanced Dart",
+            "topics": ["Streams", "Futures", "Isolates"]
+          },
+          {
+            "section": "State Management",
+            "topics": ["Provider", "BLoC", "GetX", "Riverpod", "Redux"]
+          },
+          {
+            "section": "Reactive Programming",
+            "topics": ["Streams", "RxDart"]
+          },
+          {
+            "section": "Animations",
+            "topics": ["Animation Controller", "Animated Builder", "Hero animations"]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "flutter_specific": [
+          "Dart Language",
+          "Flutter Framework",
+          "Widget Tree",
+          "Hot Reload",
+          "Platform Channels",
+          "Flutter DevTools",
+          "pub.dev packages"
+        ],
+        "cross_platform_advantages": [
+          "Single codebase for iOS, Android, Web, Desktop",
+          "Consistent UI across platforms",
+          "Faster development cycle",
+          "Hot reload feature",
+          "Rich widget library"
+        ],
+        "transferable_skills": [
+          "Reactive programming",
+          "State management patterns",
+          "REST APIs",
+          "Firebase",
+          "Git version control",
+          "Material Design principles"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Basic programming knowledge",
+          "Understanding of OOP",
+          "Willingness to learn Dart"
+        ],
+        "recommended": [
+          "Basic understanding of mobile development",
+          "Git version control",
+          "Familiarity with any programming language"
+        ],
+        "related_roadmaps": [
+          "android",
+          "ios",
+          "react-native",
+          "backend"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_android": ["Material Design", "Firebase", "Gradle (for builds)"],
+        "with_ios": ["Cupertino widgets", "Firebase", "CocoaPods (for dependencies)"],
+        "with_react_native": ["Cross-platform development", "Hot reload", "Component-based architecture"]
+      },
+      "career_progression": [
+        "Junior Flutter Developer",
+        "Mid-level Flutter Developer",
+        "Senior Flutter Developer",
+        "Lead Flutter Engineer",
+        "Mobile Architect (Cross-platform)",
+        "Engineering Manager"
+      ]
+    },
+    {
+      "role_id": "game-developer",
+      "role_name": "Game Developer (Client-Side)",
+      "platform_type": "multi_platform",
+      "platform_target": "PC, Console, Mobile, VR/AR",
+      "role_category": "game_development",
+      "estimated_topics": 220,
+      "learning_hours": 600,
+      "difficulty_level": "advanced",
+      "primary_structure": {
+        "entry_point": "Client Side Development",
+        "main_sections": [
+          {
+            "section": "Programming Languages",
+            "topics": ["C/C++", "C#", "Python", "Rust", "GDScript"]
+          },
+          {
+            "section": "Game Mathematics",
+            "topics": [
+              "Linear Algebra",
+              "Vectors",
+              "Matrices",
+              "Quaternions",
+              "Euler Angles",
+              "Curves (Splines, Bezier)",
+              "Projections"
+            ]
+          },
+          {
+            "section": "Game Physics",
+            "topics": [
+              "Dynamics",
+              "Collision Detection (Narrow/Broad phase, SAT, GJK, EPA)",
+              "Spatial Partitioning (BVH, DBVT)"
+            ]
+          },
+          {
+            "section": "Computer Graphics",
+            "topics": [
+              "Ray Tracing",
+              "Rasterization",
+              "Shaders",
+              "Lighting and Shadow (Shadow Maps, Stencil)",
+              "Rendering Techniques"
+            ]
+          },
+          {
+            "section": "Graphics API",
+            "topics": ["DirectX", "OpenGL", "Vulkan"]
+          },
+          {
+            "section": "Game Engine",
+            "topics": [
+              "Unity 3D",
+              "Unreal Engine",
+              "Godot",
+              "Native/Custom Engines"
+            ]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "game_specific": [
+          "Game Loop",
+          "Entity-Component-System (ECS)",
+          "Game State Management",
+          "Input Handling",
+          "Audio Systems",
+          "Asset Management",
+          "Scene Management",
+          "Particle Systems",
+          "AI/Pathfinding",
+          "Optimization techniques"
+        ],
+        "transferable_skills": [
+          "C/C++ programming",
+          "Object-oriented programming",
+          "Linear algebra",
+          "Physics simulation",
+          "Graphics programming",
+          "Performance optimization"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Strong programming foundation (C++ or C#)",
+          "Mathematics (Linear Algebra, Trigonometry)",
+          "Understanding of OOP",
+          "Basic physics knowledge"
+        ],
+        "recommended": [
+          "Computer graphics fundamentals",
+          "3D modeling basics",
+          "Game design principles",
+          "Version control (Git)"
+        ],
+        "related_roadmaps": [
+          "cpp",
+          "computer-science",
+          "server-side-game-developer",
+          "backend"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_mobile_dev": ["Performance optimization", "Touch input handling", "Asset optimization"],
+        "with_backend": ["Networking", "API integration", "Data serialization"],
+        "with_server_side_game": ["Networking protocols", "Multiplayer architecture", "Game state synchronization"]
+      },
+      "career_progression": [
+        "Junior Game Programmer",
+        "Game Programmer",
+        "Senior Game Programmer",
+        "Lead Game Programmer",
+        "Technical Director",
+        "CTO/Engineering Director"
+      ]
+    },
+    {
+      "role_id": "server-side-game-developer",
+      "role_name": "Server-Side Game Developer",
+      "platform_type": "backend_specialized",
+      "platform_target": "Game Servers, Cloud Infrastructure",
+      "role_category": "game_development",
+      "estimated_topics": 140,
+      "learning_hours": 450,
+      "difficulty_level": "advanced",
+      "primary_structure": {
+        "entry_point": "Networking Fundamentals",
+        "main_sections": [
+          {
+            "section": "Networking Protocols",
+            "topics": ["TCP", "UDP"]
+          },
+          {
+            "section": "Programming Languages",
+            "topics": ["C/C++", "C#", "Java", "Erlang", "JavaScript", "Go"]
+          },
+          {
+            "section": "Socket Programming",
+            "topics": ["BSD Socket", "Winsock APIs"]
+          },
+          {
+            "section": "Serialization Formats",
+            "topics": ["JSON", "XML", "YAML", "TOML", "Protobuf"]
+          },
+          {
+            "section": "Multithreading & Synchronization",
+            "topics": ["Mutexes", "Semaphores", "Coroutines", "Thread pools"]
+          },
+          {
+            "section": "IP Networking",
+            "topics": ["IPv4", "IPv6", "ARP", "DNS", "DHCP"]
+          },
+          {
+            "section": "Programming Techniques",
+            "topics": ["Design Patterns", "TDD", "Dependency Injection"]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "server_game_specific": [
+          "Real-time networking",
+          "Game state synchronization",
+          "Matchmaking systems",
+          "Player authentication",
+          "Anti-cheat systems",
+          "Server authoritative gameplay",
+          "Lag compensation",
+          "Client prediction",
+          "Server reconciliation",
+          "Load balancing",
+          "Scalability patterns"
+        ],
+        "transferable_skills": [
+          "Network programming",
+          "Concurrent programming",
+          "Database management",
+          "API design",
+          "Cloud infrastructure",
+          "DevOps practices"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Strong programming foundation",
+          "Understanding of networking concepts",
+          "Knowledge of multithreading",
+          "Database fundamentals"
+        ],
+        "recommended": [
+          "Experience with game development",
+          "Cloud platforms (AWS, Azure, GCP)",
+          "Docker/Kubernetes",
+          "Microservices architecture"
+        ],
+        "related_roadmaps": [
+          "backend",
+          "game-developer",
+          "devops",
+          "system-design"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_backend": ["API design", "Database management", "Authentication", "Cloud deployment"],
+        "with_game_developer": ["Game logic", "State management", "Player data"],
+        "with_devops": ["Server deployment", "Monitoring", "Scaling", "CI/CD"]
+      },
+      "career_progression": [
+        "Junior Server Engineer",
+        "Server-Side Game Developer",
+        "Senior Server Engineer",
+        "Lead Server Architect",
+        "Technical Director",
+        "VP of Engineering"
+      ]
+    },
+    {
+      "role_id": "qa",
+      "role_name": "QA Engineer",
+      "platform_type": "cross_functional",
+      "platform_target": "All platforms",
+      "role_category": "quality_assurance",
+      "estimated_topics": 160,
+      "learning_hours": 350,
+      "difficulty_level": "intermediate",
+      "primary_structure": {
+        "entry_point": "Learn the Fundamentals",
+        "main_sections": [
+          {
+            "section": "Fundamentals",
+            "topics": ["QA concepts", "Testing approaches", "QA mindset"]
+          },
+          {
+            "section": "Testing Methodologies",
+            "topics": ["White Box", "Gray Box", "Black Box", "Manual Testing", "Automated Testing", "TDD"]
+          },
+          {
+            "section": "SDLC Models",
+            "topics": ["V Model", "Waterfall", "Agile", "Kanban", "Scrum", "XP", "SAFe"]
+          },
+          {
+            "section": "Functional Testing",
+            "topics": [
+              "UAT",
+              "Exploratory Testing",
+              "Sanity Testing",
+              "Regression Testing",
+              "Smoke Testing",
+              "Unit Testing",
+              "Integration Testing"
+            ]
+          },
+          {
+            "section": "Non-Functional Testing",
+            "topics": [
+              "Load Testing",
+              "Performance Testing",
+              "Stress Testing",
+              "Security Testing",
+              "Accessibility Testing"
+            ]
+          },
+          {
+            "section": "Automation Frameworks - Backend",
+            "topics": ["Karate", "SoapUI", "Postman", "REST Assured"]
+          },
+          {
+            "section": "Automation Frameworks - Frontend",
+            "topics": [
+              "Selenium",
+              "Cypress",
+              "Playwright",
+              "Jest",
+              "Puppeteer",
+              "WebDriver.io",
+              "Robot Framework",
+              "Jasmine",
+              "Nightwatch"
+            ]
+          },
+          {
+            "section": "Automation Frameworks - Mobile",
+            "topics": ["Espresso (Android)", "Detox", "Appium", "XCUITest (iOS)"]
+          },
+          {
+            "section": "Test Management",
+            "topics": ["qTest", "TestRail", "TestLink", "Zephyr"]
+          },
+          {
+            "section": "Performance & Accessibility",
+            "topics": [
+              "Lighthouse",
+              "Gatling",
+              "K6",
+              "Artillery",
+              "JMeter",
+              "Wave",
+              "AXE",
+              "Chrome DevTools"
+            ]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "qa_specific": [
+          "Test planning",
+          "Test case design",
+          "Bug reporting",
+          "Test automation",
+          "CI/CD integration",
+          "Test metrics and reporting",
+          "Risk-based testing",
+          "Exploratory testing techniques"
+        ],
+        "transferable_skills": [
+          "Programming fundamentals",
+          "Critical thinking",
+          "Problem-solving",
+          "Communication",
+          "Documentation",
+          "Agile methodologies"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Basic understanding of software development",
+          "Logical thinking",
+          "Attention to detail",
+          "Basic HTML/CSS/JavaScript knowledge"
+        ],
+        "recommended": [
+          "Programming experience (any language)",
+          "Understanding of databases",
+          "API testing basics",
+          "Version control (Git)"
+        ],
+        "related_roadmaps": [
+          "frontend",
+          "backend",
+          "devops",
+          "android",
+          "ios"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_mobile": ["Mobile-specific test automation", "Device testing", "App store testing"],
+        "with_backend": ["API testing", "Database testing", "Performance testing"],
+        "with_frontend": ["UI testing", "Cross-browser testing", "Accessibility testing"],
+        "with_devops": ["CI/CD pipelines", "Test automation integration", "Monitoring"]
+      },
+      "career_progression": [
+        "Junior QA Engineer",
+        "QA Engineer",
+        "Senior QA Engineer",
+        "QA Lead",
+        "Test Architect",
+        "QA Manager/Director"
+      ]
+    },
+    {
+      "role_id": "ux-design",
+      "role_name": "UX Designer",
+      "platform_type": "cross_functional",
+      "platform_target": "All digital products",
+      "role_category": "design",
+      "estimated_topics": 110,
+      "learning_hours": 300,
+      "difficulty_level": "intermediate",
+      "primary_structure": {
+        "entry_point": "Foundation Concepts",
+        "main_sections": [
+          {
+            "section": "Foundation Concepts",
+            "topics": ["Human Decision Making", "Behavior Change Strategies"]
+          },
+          {
+            "section": "Theoretical Frameworks",
+            "topics": [
+              "BJ Fogg's Behavior Model",
+              "Nir Eyal's Hook Model",
+              "Cue Routine Reward Model"
+            ]
+          },
+          {
+            "section": "Behavioral Psychology",
+            "topics": [
+              "Nudge Theory",
+              "Persuasive Technology",
+              "Behavioral Science",
+              "Behavioral Economics",
+              "Behavior Design"
+            ]
+          },
+          {
+            "section": "Product Development",
+            "topics": [
+              "Conceptual Design",
+              "Business Model Analysis",
+              "Prototyping and Wireframing",
+              "User Persona Creation"
+            ]
+          },
+          {
+            "section": "UX Patterns & Best Practices",
+            "topics": [
+              "Getting User Attention (Clarity)",
+              "Creating Positive Reactions (Design Quality)",
+              "Building Urgency (Scarcity, Commitment)"
+            ]
+          },
+          {
+            "section": "Implementation & Measurement",
+            "topics": ["Flowcharts", "Wireframes", "Impact Measurement"]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "ux_specific": [
+          "User research methods",
+          "Persona development",
+          "Journey mapping",
+          "Information architecture",
+          "Wireframing",
+          "Prototyping",
+          "Usability testing",
+          "A/B testing",
+          "Accessibility standards",
+          "Design thinking process"
+        ],
+        "transferable_skills": [
+          "Psychology",
+          "Communication",
+          "Problem-solving",
+          "Empathy",
+          "Research skills",
+          "Data analysis"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Understanding of user-centered design",
+          "Basic visual design principles",
+          "Empathy and user focus"
+        ],
+        "recommended": [
+          "Design tools (Figma, Sketch, Adobe XD)",
+          "Basic HTML/CSS knowledge",
+          "Psychology or behavioral science interest",
+          "Portfolio of design work"
+        ],
+        "related_roadmaps": [
+          "frontend",
+          "design-system",
+          "product-manager",
+          "android",
+          "ios"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_mobile": ["Mobile UI patterns", "Touch interactions", "Responsive design"],
+        "with_web": ["Web accessibility", "Responsive design", "Browser compatibility"],
+        "with_product_management": ["User research", "Product strategy", "Feature prioritization"],
+        "with_design_system": ["Component design", "Patterns", "Guidelines"]
+      },
+      "career_progression": [
+        "Junior UX Designer",
+        "UX Designer",
+        "Senior UX Designer",
+        "Lead UX Designer",
+        "UX Director",
+        "Chief Design Officer"
+      ]
+    },
+    {
+      "role_id": "design-system",
+      "role_name": "Design System Specialist",
+      "platform_type": "cross_functional",
+      "platform_target": "All digital products",
+      "role_category": "design",
+      "estimated_topics": 160,
+      "learning_hours": 280,
+      "difficulty_level": "intermediate_to_advanced",
+      "primary_structure": {
+        "entry_point": "Understand the Basics",
+        "main_sections": [
+          {
+            "section": "Understand the Basics",
+            "topics": [
+              "Design System definition",
+              "Why design systems matter",
+              "Atomic Design principles",
+              "Stakeholder involvement",
+              "Real-world examples"
+            ]
+          },
+          {
+            "section": "Terminology",
+            "topics": [
+              "Components",
+              "Component Libraries",
+              "Design Language",
+              "Governance",
+              "Guidelines",
+              "Patterns",
+              "Design Tokens",
+              "UI Kits"
+            ]
+          },
+          {
+            "section": "Making a Design System",
+            "topics": [
+              "Building from scratch",
+              "Evolving from existing designs",
+              "Visual audits",
+              "Process documentation"
+            ]
+          },
+          {
+            "section": "Existing Design Analysis",
+            "topics": [
+              "Identifying colors",
+              "Typography analysis",
+              "Spacing systems",
+              "Icon inventory",
+              "Form elements",
+              "Component inventory"
+            ]
+          },
+          {
+            "section": "Creating Design Language",
+            "topics": [
+              "Writing guidelines",
+              "Tone of voice",
+              "Design principles",
+              "Vision statement"
+            ]
+          },
+          {
+            "section": "Defining Design Tokens",
+            "topics": ["Colors", "Layout units", "Typography", "Iconography"]
+          },
+          {
+            "section": "Creating Core Components",
+            "topics": ["Avatar", "Inputs", "Buttons", "Cards", "etc."]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "design_system_specific": [
+          "Component library creation",
+          "Design token management",
+          "Documentation systems",
+          "Version control for design",
+          "Design system governance",
+          "Cross-platform consistency",
+          "Accessibility standards",
+          "Developer handoff"
+        ],
+        "transferable_skills": [
+          "Design principles",
+          "Frontend development basics",
+          "Documentation",
+          "Communication",
+          "Project management",
+          "Version control"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Strong visual design skills",
+          "Understanding of UI/UX principles",
+          "Component-based thinking",
+          "Basic frontend knowledge"
+        ],
+        "recommended": [
+          "Design tools (Figma, Sketch, Adobe XD)",
+          "HTML/CSS knowledge",
+          "React/Vue component understanding",
+          "Storybook experience",
+          "Git version control"
+        ],
+        "related_roadmaps": [
+          "frontend",
+          "react",
+          "vue",
+          "ux-design",
+          "javascript"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_frontend": ["Component architecture", "CSS variables", "Accessibility", "Responsive design"],
+        "with_ux_design": ["Design patterns", "User research", "Usability"],
+        "with_mobile": ["Platform-specific guidelines", "Native components", "Design tokens"],
+        "with_product_management": ["Documentation", "Stakeholder management", "Roadmap planning"]
+      },
+      "career_progression": [
+        "Junior Design System Designer",
+        "Design System Designer",
+        "Senior Design System Designer",
+        "Design System Lead",
+        "Head of Design Systems",
+        "Design Director"
+      ]
+    },
+    {
+      "role_id": "product-manager",
+      "role_name": "Product Manager",
+      "platform_type": "cross_functional",
+      "platform_target": "All products",
+      "role_category": "product_management",
+      "estimated_topics": 130,
+      "learning_hours": 320,
+      "difficulty_level": "intermediate_to_advanced",
+      "primary_structure": {
+        "entry_point": "What is Product Management?",
+        "main_sections": [
+          {
+            "section": "Foundation",
+            "topics": [
+              "What is Product Management?",
+              "Product vs Project Management",
+              "Roles and Responsibilities",
+              "Key Skills",
+              "Product Development Lifecycle"
+            ]
+          },
+          {
+            "section": "Product Development Lifecycle",
+            "topics": ["Introduction", "Development", "Growth", "Maturity", "Decline"]
+          },
+          {
+            "section": "Idea Generation",
+            "topics": [
+              "Mind Mapping",
+              "Brainwriting",
+              "SCAMPER",
+              "Brainstorming Techniques",
+              "Product Identification"
+            ]
+          },
+          {
+            "section": "Market & User Research",
+            "topics": [
+              "Market Analysis (Identifying Needs, Competitive Analysis, Emerging Trends)",
+              "User Research (Personas, Interviews, Surveys, Ethnographic Research)",
+              "Positioning and Segmentation"
+            ]
+          },
+          {
+            "section": "Product Strategy",
+            "topics": [
+              "Vision & Mission statements",
+              "Defining Goals (Target, Baseline, Trend, Timeframe)",
+              "Value Proposition Canvas",
+              "Strategic Thinking (Competitive Strategy, Five Forces Analysis)",
+              "Value vs Features"
+            ]
+          },
+          {
+            "section": "Product Planning",
+            "topics": [
+              "Requirements (PRDs, User Stories, Job Stories)",
+              "Roadmap Creation and Communication",
+              "Backlog Management",
+              "Prioritization"
+            ]
+          },
+          {
+            "section": "Design Phase",
+            "topics": [
+              "UX/UI Design principles",
+              "Wireframing and Prototyping",
+              "Service Design",
+              "Interaction Design",
+              "User Testing (Usability, A/B Testing, Remote Testing)"
+            ]
+          },
+          {
+            "section": "Development & Launch",
+            "topics": [
+              "Agile Methodology (Scrum, Kanban)",
+              "Engineering collaboration",
+              "MVP development",
+              "Go-to-Market Strategy",
+              "Release Strategies",
+              "Growth Hacking"
+            ]
+          }
+        ]
+      },
+      "platform_specific_knowledge": {
+        "pm_specific": [
+          "Product strategy",
+          "Roadmap planning",
+          "Stakeholder management",
+          "Data-driven decision making",
+          "A/B testing",
+          "User story writing",
+          "Prioritization frameworks",
+          "Market analysis",
+          "Competitive analysis",
+          "Go-to-market strategy"
+        ],
+        "transferable_skills": [
+          "Communication",
+          "Leadership",
+          "Strategic thinking",
+          "Data analysis",
+          "Project management",
+          "Problem-solving"
+        ]
+      },
+      "prerequisites": {
+        "required": [
+          "Strong communication skills",
+          "Business acumen",
+          "User empathy",
+          "Analytical thinking"
+        ],
+        "recommended": [
+          "Technical background (development or design)",
+          "Data analysis skills",
+          "Agile/Scrum knowledge",
+          "Domain expertise in a specific industry",
+          "MBA or equivalent experience"
+        ],
+        "related_roadmaps": [
+          "ux-design",
+          "frontend",
+          "backend",
+          "android",
+          "ios",
+          "qa"
+        ]
+      },
+      "cross_platform_overlap": {
+        "with_development": ["Technical feasibility", "Sprint planning", "Feature scoping"],
+        "with_design": ["User research", "Wireframing", "User testing"],
+        "with_qa": ["Acceptance criteria", "Test planning", "Quality standards"],
+        "with_business": ["Market analysis", "Strategy", "Revenue models"]
+      },
+      "career_progression": [
+        "Associate Product Manager",
+        "Product Manager",
+        "Senior Product Manager",
+        "Lead Product Manager",
+        "Director of Product",
+        "VP of Product",
+        "CPO"
+      ]
+    }
+  ],
+  "platform_coverage": {
+    "mobile_platforms": {
+      "ios": {
+        "native_role": "ios",
+        "cross_platform_roles": ["flutter"],
+        "native_advantages": ["Best performance", "Latest iOS features", "SwiftUI", "Full platform integration"],
+        "when_to_choose": "iOS-only apps, performance-critical apps, full platform feature access needed"
+      },
+      "android": {
+        "native_role": "android",
+        "cross_platform_roles": ["flutter"],
+        "native_advantages": ["Best performance", "Latest Android features", "Jetpack Compose", "Full platform integration"],
+        "when_to_choose": "Android-only apps, performance-critical apps, full platform feature access needed"
+      },
+      "cross_platform": {
+        "primary_role": "flutter",
+        "advantages": ["Single codebase", "Faster development", "Consistent UI", "Lower cost"],
+        "disadvantages": ["Slightly lower performance", "Platform-specific features require plugins", "Larger app size"],
+        "when_to_choose": "Multi-platform apps, MVPs, budget-constrained projects, consistent UI needed"
+      }
+    },
+    "game_platforms": {
+      "client_side": {
+        "role": "game-developer",
+        "platforms": ["PC", "Console", "Mobile", "VR/AR", "Web"],
+        "engines": ["Unity", "Unreal Engine", "Godot"],
+        "focus": "Graphics, gameplay, user experience"
+      },
+      "server_side": {
+        "role": "server-side-game-developer",
+        "platforms": ["Cloud servers", "Dedicated servers", "Peer-to-peer"],
+        "focus": "Multiplayer, networking, backend systems, scalability"
+      }
+    }
+  },
+  "design_ux_pm_integration": {
+    "design_roles": {
+      "ux_design": {
+        "focus": "User experience, research, behavior",
+        "deliverables": ["User research", "Personas", "Journey maps", "Wireframes", "Prototypes"],
+        "collaboration": ["Product managers", "Developers", "Stakeholders"]
+      },
+      "design_system": {
+        "focus": "Consistency, scalability, documentation",
+        "deliverables": ["Component libraries", "Design tokens", "Guidelines", "Documentation"],
+        "collaboration": ["Frontend developers", "UX designers", "Product teams"]
+      }
+    },
+    "product_management": {
+      "focus": "Strategy, roadmap, prioritization",
+      "deliverables": ["Product roadmap", "PRDs", "User stories", "Go-to-market plans"],
+      "collaboration": ["Engineering", "Design", "Sales", "Marketing", "Executives"]
+    },
+    "development_roles": {
+      "focus": "Implementation, technical architecture, quality",
+      "deliverables": ["Working software", "Technical documentation", "Tests"],
+      "collaboration": ["Product managers", "Designers", "QA engineers"]
+    },
+    "qa_role": {
+      "focus": "Quality, testing, automation",
+      "deliverables": ["Test plans", "Test cases", "Bug reports", "Quality metrics"],
+      "collaboration": ["Developers", "Product managers", "DevOps"]
+    }
+  },
+  "learning_path_recommendations": {
+    "mobile_developer_path": {
+      "beginner": {
+        "recommended_start": "flutter",
+        "reason": "Easier learning curve, cross-platform benefits, single language (Dart)",
+        "duration": "3-4 months"
+      },
+      "platform_specialist": {
+        "ios_path": ["Swift basics", "UIKit", "SwiftUI", "iOS Architecture"],
+        "android_path": ["Kotlin basics", "Jetpack", "Compose", "Android Architecture"],
+        "duration": "4-6 months each"
+      }
+    },
+    "game_developer_path": {
+      "beginner": {
+        "recommended_start": "Unity with C#",
+        "reason": "Largest community, most jobs, easier than Unreal",
+        "duration": "6-9 months"
+      },
+      "advanced": {
+        "client_side": ["game-developer roadmap", "C++", "Graphics programming"],
+        "server_side": ["server-side-game-developer roadmap", "Networking", "Cloud infrastructure"],
+        "duration": "12+ months"
+      }
+    },
+    "full_stack_product_path": {
+      "roles_sequence": ["ux-design", "frontend/backend development", "qa", "product-manager"],
+      "reason": "Understanding all aspects creates better product managers",
+      "duration": "2-3 years total"
+    }
+  },
+  "total_learning_hours": {
+    "mobile_development": 1100,
+    "game_development": 1050,
+    "quality_assurance": 350,
+    "design": 580,
+    "product_management": 320,
+    "total_all_roles": 3400
+  },
+  "agent_capabilities": [
+    "Mobile app development guidance (iOS, Android, Flutter)",
+    "Game development consultation (client and server-side)",
+    "Quality assurance and testing strategy",
+    "UX design and user research methodologies",
+    "Design system creation and management",
+    "Product management and roadmap planning",
+    "Cross-platform development strategy",
+    "Architecture and design pattern recommendations",
+    "Technology stack selection for mobile/game projects",
+    "Testing automation framework selection",
+    "Career path guidance for mobile/game/QA/design/PM roles",
+    "Learning resource recommendations",
+    "Code review and best practices",
+    "Performance optimization for mobile and games",
+    "Platform-specific feature implementation guidance"
+  ],
+  "suggested_skills": [
+    {
+      "category": "Mobile Development",
+      "skills": [
+        "Swift/Objective-C (iOS)",
+        "Kotlin/Java (Android)",
+        "Dart/Flutter (Cross-platform)",
+        "REST API integration",
+        "Mobile UI/UX patterns",
+        "Push notifications",
+        "Local storage (SQLite, Core Data, Room)",
+        "Reactive programming (Combine, RxSwift, RxJava, Flow)",
+        "Mobile architecture (MVVM, MVP, MVI)",
+        "App store deployment",
+        "Mobile testing (XCTest, Espresso, Flutter test)"
+      ]
+    },
+    {
+      "category": "Game Development",
+      "skills": [
+        "C/C++ programming",
+        "C# (Unity)",
+        "Linear algebra and calculus",
+        "Physics simulation",
+        "3D graphics (OpenGL, DirectX, Vulkan)",
+        "Game engines (Unity, Unreal, Godot)",
+        "Shader programming",
+        "Game design patterns",
+        "Optimization techniques",
+        "Multiplayer networking",
+        "AI and pathfinding"
+      ]
+    },
+    {
+      "category": "Quality Assurance",
+      "skills": [
+        "Test planning and strategy",
+        "Manual testing techniques",
+        "Test automation (Selenium, Cypress, Playwright)",
+        "Mobile testing (Appium, XCUITest, Espresso)",
+        "API testing (Postman, REST Assured)",
+        "Performance testing (JMeter, K6)",
+        "CI/CD integration",
+        "Bug tracking and reporting",
+        "Accessibility testing",
+        "Security testing basics"
+      ]
+    },
+    {
+      "category": "Design",
+      "skills": [
+        "User research methods",
+        "Wireframing and prototyping",
+        "Design tools (Figma, Sketch, Adobe XD)",
+        "Information architecture",
+        "Interaction design",
+        "Accessibility (WCAG)",
+        "Design systems and component libraries",
+        "Design tokens",
+        "Visual design principles",
+        "Usability testing"
+      ]
+    },
+    {
+      "category": "Product Management",
+      "skills": [
+        "Product strategy",
+        "Roadmap planning",
+        "User story writing",
+        "Agile/Scrum methodologies",
+        "Data analysis",
+        "A/B testing",
+        "Market research",
+        "Competitive analysis",
+        "Stakeholder management",
+        "Prioritization frameworks (RICE, MoSCoW)",
+        "Go-to-market strategy"
+      ]
+    },
+    {
+      "category": "Cross-Functional",
+      "skills": [
+        "Git version control",
+        "Agile methodologies",
+        "Communication and collaboration",
+        "Problem-solving",
+        "Critical thinking",
+        "Documentation",
+        "Time management",
+        "Continuous learning"
+      ]
+    }
+  ],
+  "interdependencies": {
+    "mobile_and_qa": "Mobile developers need QA knowledge for testing; QA engineers need mobile platform understanding for effective testing",
+    "mobile_and_ux": "Mobile developers implement UX designs; UX designers need to understand mobile constraints and capabilities",
+    "game_and_qa": "Game developers need testing strategies; QA engineers need game-specific testing knowledge",
+    "ux_and_design_system": "UX designers create patterns; Design system specialists systematize them",
+    "pm_and_all_roles": "Product managers coordinate with all roles, need basic understanding of each discipline",
+    "design_system_and_development": "Design system specialists bridge design and development, need both skill sets"
+  },
+  "market_trends_2025": {
+    "mobile": [
+      "SwiftUI and Jetpack Compose adoption increasing",
+      "Flutter continues to grow for cross-platform",
+      "AI/ML integration in mobile apps",
+      "5G-enabled applications",
+      "Foldable device support",
+      "Privacy-first development"
+    ],
+    "game": [
+      "Cloud gaming growth",
+      "Mobile gaming dominance",
+      "VR/AR gaming expansion",
+      "AI-driven NPCs and procedural content",
+      "Cross-platform play standard",
+      "Blockchain/NFT integration debates"
+    ],
+    "qa": [
+      "AI-assisted testing",
+      "Shift-left testing",
+      "Test automation expansion",
+      "Accessibility testing mandatory",
+      "Performance engineering focus",
+      "Security testing integration"
+    ],
+    "design": [
+      "AI-assisted design tools",
+      "Design system maturity",
+      "Accessibility as standard",
+      "Design tokens adoption",
+      "Component-driven design",
+      "Inclusive design focus"
+    ],
+    "product_management": [
+      "Data-driven decision making",
+      "AI product features",
+      "Customer-centric approach",
+      "Outcome over output",
+      "Continuous discovery",
+      "Platform thinking"
+    ]
+  },
+  "salary_ranges_usd": {
+    "note": "Approximate ranges for US market, varies by location and experience",
+    "android_developer": {
+      "junior": "70k-95k",
+      "mid": "95k-140k",
+      "senior": "140k-200k+"
+    },
+    "ios_developer": {
+      "junior": "75k-100k",
+      "mid": "100k-150k",
+      "senior": "150k-210k+"
+    },
+    "flutter_developer": {
+      "junior": "65k-90k",
+      "mid": "90k-130k",
+      "senior": "130k-180k+"
+    },
+    "game_developer": {
+      "junior": "60k-85k",
+      "mid": "85k-130k",
+      "senior": "130k-180k+"
+    },
+    "server_game_developer": {
+      "junior": "75k-100k",
+      "mid": "100k-150k",
+      "senior": "150k-220k+"
+    },
+    "qa_engineer": {
+      "junior": "55k-75k",
+      "mid": "75k-110k",
+      "senior": "110k-160k+"
+    },
+    "ux_designer": {
+      "junior": "60k-80k",
+      "mid": "80k-120k",
+      "senior": "120k-170k+"
+    },
+    "design_system_specialist": {
+      "junior": "70k-90k",
+      "mid": "90k-135k",
+      "senior": "135k-190k+"
+    },
+    "product_manager": {
+      "junior": "80k-110k",
+      "mid": "110k-160k",
+      "senior": "160k-250k+"
+    }
+  },
+  "recommended_tools": {
+    "mobile_development": {
+      "ios": ["Xcode", "Swift Playgrounds", "TestFlight", "Instruments", "CocoaPods/SPM"],
+      "android": ["Android Studio", "Gradle", "Firebase", "Android Debug Bridge", "ProGuard"],
+      "flutter": ["VS Code", "Android Studio", "Flutter DevTools", "pub.dev", "Firebase"],
+      "shared": ["Git", "Postman", "Charles Proxy", "Figma", "Jira"]
+    },
+    "game_development": {
+      "engines": ["Unity", "Unreal Engine", "Godot"],
+      "graphics": ["Blender", "Maya", "Substance Painter"],
+      "audio": ["FMOD", "Wwise", "Audacity"],
+      "version_control": ["Git", "Perforce", "PlasticSCM"],
+      "collaboration": ["Jira", "Confluence", "Slack"]
+    },
+    "qa": {
+      "automation": ["Selenium", "Cypress", "Playwright", "Appium"],
+      "api_testing": ["Postman", "REST Assured", "SoapUI"],
+      "performance": ["JMeter", "K6", "Gatling"],
+      "management": ["TestRail", "Zephyr", "qTest"],
+      "ci_cd": ["Jenkins", "GitLab CI", "GitHub Actions"]
+    },
+    "design": {
+      "ui_design": ["Figma", "Sketch", "Adobe XD"],
+      "prototyping": ["Figma", "InVision", "Principle"],
+      "design_systems": ["Storybook", "Zeroheight", "Supernova"],
+      "user_research": ["UserTesting", "Hotjar", "Maze"],
+      "collaboration": ["Figma", "Miro", "FigJam"]
+    },
+    "product_management": {
+      "roadmapping": ["ProductPlan", "Aha!", "Jira Product Discovery"],
+      "analytics": ["Mixpanel", "Amplitude", "Google Analytics"],
+      "user_feedback": ["UserVoice", "Productboard", "Pendo"],
+      "documentation": ["Confluence", "Notion", "Coda"],
+      "project_management": ["Jira", "Asana", "Linear"]
+    }
+  }
+}
