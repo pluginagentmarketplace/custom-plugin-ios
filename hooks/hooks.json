@@ -1,0 +1,82 @@
+{
+  "hooks": [
+    {
+      "event": "user-prompt-submit",
+      "handler": "skill-loader.js",
+      "description": "Automatically load relevant skills based on user's question or topic",
+      "enabled": true,
+      "config": {
+        "keywords": {
+          "ai": ["ai-foundations", "machine-learning-practice"],
+          "frontend": ["frontend-frameworks"],
+          "backend": ["backend-development"],
+          "database": ["database-design"],
+          "cloud": ["cloud-infrastructure"],
+          "architecture": ["system-architecture"],
+          "mobile": ["mobile-development"],
+          "game": ["game-development"],
+          "devops": ["devops-practices"],
+          "fundamentals": ["fundamentals"]
+        },
+        "auto_trigger": true,
+        "max_skills_per_message": 3
+      }
+    },
+    {
+      "event": "command-execution",
+      "handler": "command-router.js",
+      "description": "Route slash commands to appropriate agent handlers",
+      "enabled": true,
+      "config": {
+        "routes": {
+          "/learn": "ai-ml-specialist",
+          "/browse-roadmap": "frontend-expert",
+          "/assess": "backend-database",
+          "/compare-paths": "specialized-roles"
+        }
+      }
+    },
+    {
+      "event": "agent-invocation",
+      "handler": "context-enricher.js",
+      "description": "Enrich agent context with relevant roadmap data and resources",
+      "enabled": true,
+      "config": {
+        "include_prerequisites": true,
+        "include_learning_hours": true,
+        "include_career_path": true
+      }
+    },
+    {
+      "event": "response-generation",
+      "handler": "skill-highlighter.js",
+      "description": "Highlight available skills relevant to the response",
+      "enabled": true,
+      "config": {
+        "format": "inline",
+        "max_suggestions": 2
+      }
+    }
+  ],
+  "global_config": {
+    "enable_skill_auto_loading": true,
+    "enable_agent_routing": true,
+    "enable_context_enrichment": true,
+    "enable_skill_highlighting": true,
+    "auto_load_related_roadmaps": true,
+    "suggest_projects": true,
+    "track_learning_progress": true
+  },
+  "performance": {
+    "cache_skills": true,
+    "cache_duration_minutes": 60,
+    "async_skill_loading": true,
+    "lazy_load_resources": true
+  },
+  "customization": {
+    "allow_user_preferences": true,
+    "remember_learning_path": true,
+    "enable_notifications": false,
+    "enable_streak_tracking": true
+  }
+}
