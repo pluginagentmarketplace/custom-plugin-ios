@@ -1,0 +1,2567 @@
+{
+  "agent_name": "Developer Roadmap Analyzer",
+  "version": "1.0.0",
+  "generated_date": "2025-11-18",
+  "description": "Comprehensive analysis of developer roadmap roles with structure, prerequisites, and skill mappings",
+  "roles": [
+    {
+      "name": "backend",
+      "type": "specialization",
+      "category": "cross-platform",
+      "total_topics": 45,
+      "estimated_learning_hours": 400,
+      "roadmap_structure": {
+        "fundamentals": [
+          "Internet basics",
+          "HTTP/HTTPS protocols",
+          "Domain names and DNS",
+          "Hosting concepts",
+          "Browser behavior"
+        ],
+        "os_and_general_knowledge": [
+          "Terminal usage",
+          "OS fundamentals (Linux/Unix)",
+          "Process management",
+          "Memory management",
+          "Threading and concurrency"
+        ],
+        "version_control": ["Git", "GitHub/GitLab"],
+        "databases": {
+          "relational": ["PostgreSQL", "MySQL", "MariaDB", "MS SQL"],
+          "nosql": ["MongoDB", "Redis", "Cassandra", "DynamoDB"],
+          "concepts": ["ORMs", "ACID", "Transactions", "N+1 queries", "Normalization", "Indexes"]
+        },
+        "apis": [
+          "REST",
+          "GraphQL",
+          "gRPC",
+          "WebSockets",
+          "Authentication (JWT, OAuth, SSO)"
+        ],
+        "caching": ["Client-side", "Server-side (Redis, Memcached)", "CDN"],
+        "security": [
+          "HTTPS/SSL/TLS",
+          "CORS",
+          "Content Security Policy",
+          "OWASP Top 10",
+          "Hashing algorithms"
+        ],
+        "testing": ["Unit testing", "Integration testing", "E2E testing"],
+        "ci_cd": ["GitHub Actions", "Jenkins", "GitLab CI", "CircleCI"],
+        "design_patterns": [
+          "Singleton",
+          "Factory",
+          "Builder",
+          "Adapter",
+          "Observer",
+          "Strategy"
+        ],
+        "architectural_patterns": [
+          "Monolithic",
+          "Microservices",
+          "SOA",
+          "Serverless",
+          "Event-driven"
+        ],
+        "message_brokers": ["RabbitMQ", "Kafka", "AWS SQS"],
+        "containerization": ["Docker", "Kubernetes"],
+        "web_servers": ["Nginx", "Apache", "Caddy"],
+        "monitoring": ["Prometheus", "Grafana", "ELK Stack", "DataDog"]
+      },
+      "prerequisites": {
+        "required": ["Programming basics", "Data structures", "Algorithms"],
+        "recommended": ["Computer science fundamentals", "Networking basics"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Choose one: Python, Node.js, Java, Go, Rust, PHP, C++, Kotlin"],
+        "frameworks": ["Depends on language choice"],
+        "tools": ["Git", "Docker", "Postman", "Database clients", "CI/CD platforms"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "High - Most backends use ORMs for data access",
+        "connection_pooling": "Essential for performance",
+        "migration_management": "Required for schema version control",
+        "common_patterns": [
+          "Repository pattern",
+          "Active Record",
+          "Data Mapper",
+          "Unit of Work"
+        ]
+      },
+      "key_skills": [
+        "API design",
+        "Database modeling",
+        "Security best practices",
+        "Performance optimization",
+        "System design"
+      ]
+    },
+    {
+      "name": "nodejs",
+      "type": "language_runtime",
+      "category": "language-specific",
+      "total_topics": 38,
+      "estimated_learning_hours": 180,
+      "roadmap_structure": {
+        "basics": [
+          "JavaScript fundamentals",
+          "Node.js runtime",
+          "Module system (CommonJS/ES6)",
+          "NPM/Yarn",
+          "Event loop",
+          "Asynchronous programming"
+        ],
+        "core_modules": [
+          "fs (File System)",
+          "http/https",
+          "path",
+          "os",
+          "events",
+          "stream",
+          "buffer",
+          "process"
+        ],
+        "frameworks": {
+          "web": ["Express.js", "Fastify", "Koa", "NestJS", "Hapi"],
+          "api": ["Express", "Fastify", "Restify"]
+        },
+        "databases": {
+          "relational": ["PostgreSQL (pg, Sequelize)", "MySQL (mysql2, TypeORM)"],
+          "nosql": ["MongoDB (Mongoose)", "Redis (ioredis)"],
+          "orms": ["Sequelize", "TypeORM", "Prisma", "Knex.js"]
+        },
+        "testing": [
+          "Jest",
+          "Mocha",
+          "Chai",
+          "Supertest",
+          "Sinon",
+          "AVA"
+        ],
+        "authentication": ["Passport.js", "JWT", "OAuth2", "Auth0"],
+        "validation": ["Joi", "Yup", "express-validator", "Zod"],
+        "template_engines": ["EJS", "Pug", "Handlebars"],
+        "real_time": ["Socket.io", "WebSockets"],
+        "task_scheduling": ["node-cron", "Bull", "Agenda"],
+        "logging": ["Winston", "Morgan", "Bunyan", "Pino"],
+        "process_management": ["PM2", "Nodemon", "Forever"],
+        "build_tools": ["Webpack", "Babel", "ESBuild", "Vite"],
+        "typescript": ["TypeScript basics", "Type definitions", "tsconfig"]
+      },
+      "prerequisites": {
+        "required": ["JavaScript (ES6+)", "Async/Await", "Promises"],
+        "recommended": ["HTML/CSS", "HTTP basics", "Command line"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["JavaScript", "TypeScript"],
+        "frameworks": ["Express.js", "NestJS", "Fastify", "Koa"],
+        "tools": ["NPM", "Yarn", "pnpm", "PM2", "nodemon"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "High - Mongoose for MongoDB, Sequelize/TypeORM for SQL",
+        "connection_pooling": "Built into most database drivers",
+        "migration_management": "Sequelize migrations, TypeORM migrations, Knex migrations",
+        "common_patterns": [
+          "Callback pattern (legacy)",
+          "Promise-based",
+          "Async/await",
+          "Stream processing"
+        ]
+      },
+      "key_skills": [
+        "Event-driven architecture",
+        "Non-blocking I/O",
+        "Middleware design",
+        "Error handling",
+        "Memory management"
+      ]
+    },
+    {
+      "name": "python",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 42,
+      "estimated_learning_hours": 200,
+      "roadmap_structure": {
+        "basics": [
+          "Python syntax",
+          "Data types",
+          "Control flow",
+          "Functions",
+          "OOP concepts",
+          "Modules and packages",
+          "Virtual environments"
+        ],
+        "advanced_concepts": [
+          "Decorators",
+          "Generators",
+          "Context managers",
+          "Metaclasses",
+          "Descriptors",
+          "Async/await"
+        ],
+        "web_frameworks": {
+          "full_stack": ["Django", "Flask", "FastAPI", "Pyramid"],
+          "async": ["FastAPI", "Starlette", "Sanic", "aiohttp"]
+        },
+        "databases": {
+          "orms": ["Django ORM", "SQLAlchemy", "Peewee", "Tortoise ORM"],
+          "drivers": ["psycopg2 (PostgreSQL)", "PyMySQL", "pymongo (MongoDB)"],
+          "async_drivers": ["asyncpg", "aiomysql", "motor (MongoDB)"]
+        },
+        "testing": [
+          "pytest",
+          "unittest",
+          "doctest",
+          "mock",
+          "coverage.py",
+          "tox"
+        ],
+        "package_management": ["pip", "poetry", "pipenv", "conda"],
+        "web_scraping": ["BeautifulSoup", "Scrapy", "Selenium", "Requests"],
+        "data_processing": [
+          "NumPy",
+          "Pandas",
+          "Polars",
+          "Dask"
+        ],
+        "api_development": [
+          "Django REST Framework",
+          "FastAPI",
+          "Flask-RESTful",
+          "GraphQL (Graphene)"
+        ],
+        "async_programming": ["asyncio", "aiohttp", "trio", "anyio"],
+        "task_queues": ["Celery", "RQ", "Dramatiq", "Huey"],
+        "validation": ["Pydantic", "marshmallow", "cerberus"],
+        "logging": ["logging module", "loguru", "structlog"],
+        "type_checking": ["mypy", "pyright", "pyre"]
+      },
+      "prerequisites": {
+        "required": ["Programming basics", "Command line"],
+        "recommended": ["Computer science fundamentals", "Linux basics"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Python 3.x"],
+        "frameworks": ["Django", "Flask", "FastAPI", "Pyramid"],
+        "tools": ["pip", "poetry", "Black", "Flake8", "isort", "pytest"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Very High - Django ORM and SQLAlchemy dominate",
+        "connection_pooling": "SQLAlchemy built-in, asyncpg for async",
+        "migration_management": "Django migrations, Alembic for SQLAlchemy",
+        "common_patterns": [
+          "Active Record (Django)",
+          "Data Mapper (SQLAlchemy)",
+          "Query builder",
+          "Raw SQL when needed"
+        ]
+      },
+      "key_skills": [
+        "Pythonic code writing",
+        "Package management",
+        "Virtual environments",
+        "Testing practices",
+        "Async programming"
+      ]
+    },
+    {
+      "name": "java",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 48,
+      "estimated_learning_hours": 250,
+      "roadmap_structure": {
+        "basics": [
+          "Java syntax",
+          "OOP principles",
+          "Data types and variables",
+          "Control structures",
+          "Exception handling",
+          "Collections Framework",
+          "Generics"
+        ],
+        "advanced_concepts": [
+          "Multithreading",
+          "Concurrency utilities",
+          "Streams API",
+          "Lambda expressions",
+          "Functional interfaces",
+          "Reflection",
+          "Annotations"
+        ],
+        "frameworks": {
+          "enterprise": ["Spring", "Spring Boot", "Jakarta EE", "Micronaut", "Quarkus"],
+          "web": ["Spring MVC", "Spring WebFlux", "Vaadin", "JSF"],
+          "microservices": ["Spring Cloud", "Micronaut", "Quarkus"]
+        },
+        "databases": {
+          "jdbc": ["JDBC API", "Connection pooling (HikariCP)"],
+          "orms": ["Hibernate", "JPA", "MyBatis", "EclipseLink"],
+          "spring_data": ["Spring Data JPA", "Spring Data MongoDB", "Spring Data Redis"]
+        },
+        "build_tools": ["Maven", "Gradle", "Ant"],
+        "testing": [
+          "JUnit 5",
+          "Mockito",
+          "AssertJ",
+          "TestNG",
+          "Spring Test",
+          "RestAssured",
+          "Testcontainers"
+        ],
+        "logging": ["SLF4J", "Logback", "Log4j2", "java.util.logging"],
+        "api_development": [
+          "Spring REST",
+          "JAX-RS",
+          "Spring WebFlux",
+          "GraphQL (GraphQL Java)"
+        ],
+        "security": ["Spring Security", "JWT", "OAuth2", "JAAS"],
+        "messaging": ["Spring AMQP", "Spring Kafka", "JMS"],
+        "caching": ["Spring Cache", "Ehcache", "Caffeine", "Hazelcast"],
+        "reactive_programming": ["Project Reactor", "RxJava"],
+        "jvm_concepts": ["Memory management", "Garbage collection", "JVM tuning"]
+      },
+      "prerequisites": {
+        "required": ["OOP concepts", "Programming basics"],
+        "recommended": ["Data structures", "Algorithms", "Design patterns"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Java 8+", "Kotlin (compatible)"],
+        "frameworks": ["Spring Boot", "Jakarta EE", "Micronaut", "Quarkus"],
+        "tools": ["Maven", "Gradle", "IntelliJ IDEA", "Eclipse", "JUnit"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Very High - JPA/Hibernate is standard",
+        "connection_pooling": "HikariCP is default in Spring Boot",
+        "migration_management": "Flyway, Liquibase",
+        "common_patterns": [
+          "Repository pattern",
+          "DAO pattern",
+          "JPA specifications",
+          "QueryDSL for type-safe queries"
+        ]
+      },
+      "key_skills": [
+        "Enterprise application development",
+        "Spring ecosystem",
+        "JVM performance tuning",
+        "Design patterns",
+        "Microservices architecture"
+      ]
+    },
+    {
+      "name": "golang",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 35,
+      "estimated_learning_hours": 160,
+      "roadmap_structure": {
+        "basics": [
+          "Go syntax",
+          "Variables and types",
+          "Functions",
+          "Packages",
+          "Control structures",
+          "Pointers",
+          "Structs"
+        ],
+        "advanced_concepts": [
+          "Goroutines",
+          "Channels",
+          "Select statement",
+          "Mutexes",
+          "Interfaces",
+          "Error handling",
+          "Defer, panic, recover",
+          "Generics (Go 1.18+)"
+        ],
+        "web_frameworks": [
+          "Gin",
+          "Echo",
+          "Fiber",
+          "Chi",
+          "Gorilla Mux",
+          "Buffalo",
+          "Beego"
+        ],
+        "databases": {
+          "drivers": ["database/sql", "pgx (PostgreSQL)", "go-sql-driver/mysql"],
+          "orms": ["GORM", "Ent", "sqlx", "SQLBoiler"],
+          "nosql": ["mongo-driver", "go-redis"]
+        },
+        "testing": [
+          "testing package",
+          "testify",
+          "gomock",
+          "httptest",
+          "ginkgo"
+        ],
+        "api_development": [
+          "RESTful APIs",
+          "gRPC",
+          "GraphQL (gqlgen)",
+          "Protocol Buffers"
+        ],
+        "tools": [
+          "go fmt",
+          "go vet",
+          "golangci-lint",
+          "go mod",
+          "delve (debugger)"
+        ],
+        "microservices": [
+          "Go kit",
+          "Micro",
+          "Kratos",
+          "Service discovery (Consul)"
+        ],
+        "concurrency_patterns": [
+          "Worker pools",
+          "Pipeline pattern",
+          "Fan-out/fan-in",
+          "Context package"
+        ],
+        "logging": ["log package", "zap", "logrus", "zerolog"],
+        "validation": ["validator", "ozzo-validation"],
+        "middleware": ["negroni", "alice", "Framework-specific"]
+      },
+      "prerequisites": {
+        "required": ["Programming basics", "Command line"],
+        "recommended": ["C/C++ understanding", "Concurrency concepts"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Go"],
+        "frameworks": ["Gin", "Echo", "Fiber", "Chi"],
+        "tools": ["go fmt", "go vet", "golangci-lint", "delve"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Medium - Many prefer database/sql with manual queries",
+        "connection_pooling": "Built into database/sql",
+        "migration_management": "golang-migrate, goose",
+        "common_patterns": [
+          "Repository pattern",
+          "Interface-based abstraction",
+          "Manual query building",
+          "Prepared statements"
+        ]
+      },
+      "key_skills": [
+        "Concurrency with goroutines",
+        "Channel communication",
+        "Interface design",
+        "Error handling patterns",
+        "Performance optimization"
+      ]
+    },
+    {
+      "name": "rust",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 40,
+      "estimated_learning_hours": 280,
+      "roadmap_structure": {
+        "basics": [
+          "Ownership system",
+          "Borrowing and references",
+          "Lifetimes",
+          "Data types",
+          "Functions",
+          "Structs and enums",
+          "Pattern matching"
+        ],
+        "advanced_concepts": [
+          "Traits",
+          "Generics",
+          "Error handling (Result, Option)",
+          "Smart pointers",
+          "Concurrency (threads, channels)",
+          "Async/await",
+          "Macros",
+          "Unsafe Rust"
+        ],
+        "web_frameworks": [
+          "Actix-web",
+          "Rocket",
+          "Axum",
+          "Warp",
+          "Tide",
+          "Poem"
+        ],
+        "databases": {
+          "orms": ["Diesel", "SeaORM", "sqlx"],
+          "async_drivers": ["tokio-postgres", "sqlx", "mongodb"],
+          "redis": ["redis-rs"]
+        },
+        "async_runtime": ["Tokio", "async-std", "smol"],
+        "testing": [
+          "Built-in test framework",
+          "cargo test",
+          "criterion (benchmarks)",
+          "proptest (property testing)"
+        ],
+        "serialization": ["Serde", "serde_json", "bincode"],
+        "cli_tools": ["clap", "structopt"],
+        "logging": ["log", "env_logger", "tracing"],
+        "error_handling": ["thiserror", "anyhow", "eyre"],
+        "validation": ["validator", "garde"],
+        "api_development": [
+          "REST with Actix/Axum",
+          "gRPC (tonic)",
+          "GraphQL (async-graphql, juniper)"
+        ],
+        "memory_management": [
+          "Stack vs heap",
+          "RAII pattern",
+          "Drop trait",
+          "Rc and Arc"
+        ],
+        "cargo": [
+          "Package management",
+          "Workspace",
+          "Features",
+          "Build scripts"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Strong programming fundamentals", "Memory management concepts"],
+        "recommended": ["C/C++ experience", "Systems programming knowledge"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Rust"],
+        "frameworks": ["Actix-web", "Rocket", "Axum", "Warp"],
+        "tools": ["Cargo", "rustfmt", "clippy", "rust-analyzer"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Medium - Diesel and SeaORM popular, but sqlx (compile-time checked) preferred by many",
+        "connection_pooling": "r2d2, deadpool, bb8",
+        "migration_management": "Diesel migrations, SeaORM migrations, sqlx migrations",
+        "common_patterns": [
+          "Type-safe queries",
+          "Compile-time SQL checking",
+          "Async database access",
+          "Connection pool management"
+        ]
+      },
+      "key_skills": [
+        "Memory safety without GC",
+        "Ownership and borrowing",
+        "Fearless concurrency",
+        "Zero-cost abstractions",
+        "Systems programming"
+      ]
+    },
+    {
+      "name": "php",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 40,
+      "estimated_learning_hours": 180,
+      "roadmap_structure": {
+        "basics": [
+          "PHP syntax",
+          "Variables and types",
+          "Control structures",
+          "Functions",
+          "Arrays",
+          "OOP in PHP",
+          "Namespaces"
+        ],
+        "advanced_concepts": [
+          "Traits",
+          "Anonymous functions",
+          "Generators",
+          "Type declarations",
+          "Error and exception handling",
+          "PSR standards",
+          "Composer"
+        ],
+        "frameworks": {
+          "full_stack": ["Laravel", "Symfony", "CodeIgniter", "CakePHP"],
+          "micro": ["Lumen", "Slim", "Phalcon"]
+        },
+        "cms": ["WordPress", "Drupal", "Joomla"],
+        "databases": {
+          "extensions": ["PDO", "MySQLi"],
+          "orms": ["Eloquent (Laravel)", "Doctrine", "Propel"],
+          "query_builders": ["Laravel Query Builder", "Doctrine DBAL"]
+        },
+        "template_engines": ["Blade (Laravel)", "Twig", "Smarty"],
+        "testing": [
+          "PHPUnit",
+          "Pest",
+          "Codeception",
+          "PHPSpec",
+          "Behat"
+        ],
+        "package_management": ["Composer", "Packagist"],
+        "api_development": [
+          "Laravel API",
+          "API Platform",
+          "Symfony REST",
+          "GraphQL (Lighthouse)"
+        ],
+        "authentication": ["Laravel Auth", "JWT", "OAuth2 Server", "Passport"],
+        "caching": ["Redis", "Memcached", "APCu", "Laravel Cache"],
+        "task_scheduling": ["Laravel Scheduler", "Cron", "Symfony Messenger"],
+        "logging": ["Monolog", "Laravel Log"],
+        "validation": ["Laravel Validation", "Respect\\Validation"],
+        "standards": [
+          "PSR-1 (Basic Coding Standard)",
+          "PSR-4 (Autoloading)",
+          "PSR-7 (HTTP Message)",
+          "PSR-12 (Extended Coding Style)"
+        ]
+      },
+      "prerequisites": {
+        "required": ["HTML/CSS basics", "Programming fundamentals"],
+        "recommended": ["JavaScript", "SQL", "Web server knowledge"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["PHP 7.4+", "PHP 8.x"],
+        "frameworks": ["Laravel", "Symfony", "CodeIgniter"],
+        "tools": ["Composer", "PHPUnit", "PHP CS Fixer", "PHPStan"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "High - Eloquent (Laravel) and Doctrine are dominant",
+        "connection_pooling": "Limited native support, usually handled by external tools",
+        "migration_management": "Laravel migrations, Doctrine migrations, Phinx",
+        "common_patterns": [
+          "Active Record (Eloquent)",
+          "Data Mapper (Doctrine)",
+          "Query Builder pattern",
+          "Repository pattern"
+        ]
+      },
+      "key_skills": [
+        "Laravel ecosystem",
+        "MVC architecture",
+        "Composer package management",
+        "PSR standards compliance",
+        "Security best practices"
+      ]
+    },
+    {
+      "name": "cpp",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 50,
+      "estimated_learning_hours": 320,
+      "roadmap_structure": {
+        "basics": [
+          "C++ syntax",
+          "Data types",
+          "Operators",
+          "Control flow",
+          "Functions",
+          "Pointers and references",
+          "Arrays and strings"
+        ],
+        "oop_concepts": [
+          "Classes and objects",
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation",
+          "Virtual functions",
+          "Abstract classes"
+        ],
+        "advanced_concepts": [
+          "Templates",
+          "STL (Standard Template Library)",
+          "Smart pointers",
+          "Move semantics",
+          "Lambda expressions",
+          "RAII pattern",
+          "Exception handling",
+          "Multithreading (std::thread)"
+        ],
+        "modern_cpp": [
+          "C++11 features",
+          "C++14 features",
+          "C++17 features",
+          "C++20 features (concepts, coroutines, ranges)",
+          "C++23 features"
+        ],
+        "web_frameworks": [
+          "Crow",
+          "Drogon",
+          "Oat++",
+          "Pistache",
+          "CppCMS",
+          "TreeFrog"
+        ],
+        "databases": {
+          "libraries": ["libpq (PostgreSQL)", "MySQL Connector/C++", "SQLite3"],
+          "orms": ["ODB", "QxOrm", "LiteSQL", "SOCI"],
+          "nosql": ["mongocxx (MongoDB)", "redis-plus-plus"]
+        },
+        "build_systems": ["CMake", "Make", "Ninja", "Bazel", "Meson"],
+        "testing": [
+          "Google Test",
+          "Catch2",
+          "Boost.Test",
+          "doctest",
+          "CppUnit"
+        ],
+        "package_managers": ["Conan", "vcpkg", "Hunter"],
+        "concurrency": [
+          "std::thread",
+          "std::mutex",
+          "std::condition_variable",
+          "std::atomic",
+          "Thread pools"
+        ],
+        "networking": ["Boost.Asio", "libcurl", "ZeroMQ"],
+        "serialization": ["Protobuf", "JSON (nlohmann/json)", "Boost.Serialization"],
+        "logging": ["spdlog", "Boost.Log", "glog"],
+        "memory_management": [
+          "Manual memory management",
+          "Smart pointers (unique_ptr, shared_ptr)",
+          "Memory pools",
+          "Custom allocators"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Strong programming fundamentals", "C programming knowledge"],
+        "recommended": ["Computer architecture", "Operating systems", "Assembly basics"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["C++11/14/17/20/23"],
+        "frameworks": ["Boost", "Qt", "Crow", "Drogon"],
+        "tools": ["CMake", "GDB", "Valgrind", "clang-format", "clang-tidy"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Low - Most use direct database libraries",
+        "connection_pooling": "Manual implementation or third-party libraries",
+        "migration_management": "Usually custom scripts or external tools",
+        "common_patterns": [
+          "Direct SQL execution",
+          "Prepared statements",
+          "RAII for connection management",
+          "Custom data access layers"
+        ]
+      },
+      "key_skills": [
+        "Memory management",
+        "Performance optimization",
+        "Template metaprogramming",
+        "Systems programming",
+        "Low-level optimization"
+      ]
+    },
+    {
+      "name": "kotlin",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 38,
+      "estimated_learning_hours": 170,
+      "roadmap_structure": {
+        "basics": [
+          "Kotlin syntax",
+          "Variables (val/var)",
+          "Data types",
+          "Null safety",
+          "Functions",
+          "Classes and objects",
+          "Collections"
+        ],
+        "advanced_concepts": [
+          "Coroutines",
+          "Flow",
+          "Extension functions",
+          "Higher-order functions",
+          "Lambda expressions",
+          "Data classes",
+          "Sealed classes",
+          "Delegation",
+          "Inline functions"
+        ],
+        "frameworks": {
+          "backend": ["Ktor", "Spring Boot", "Micronaut", "Quarkus", "Javalin"],
+          "android": ["Jetpack Compose", "Android SDK"]
+        },
+        "databases": {
+          "orms": ["Exposed", "Ktorm", "Hibernate/JPA"],
+          "drivers": ["PostgreSQL JDBC", "MySQL JDBC"],
+          "spring_data": ["Spring Data with Kotlin"]
+        },
+        "testing": [
+          "JUnit 5",
+          "Kotest",
+          "MockK",
+          "Mockito-Kotlin",
+          "Ktor Test"
+        ],
+        "serialization": ["kotlinx.serialization", "Gson", "Jackson"],
+        "api_development": [
+          "Ktor REST",
+          "Spring WebFlux",
+          "GraphQL (graphql-kotlin)"
+        ],
+        "async_programming": [
+          "Coroutines",
+          "Flow",
+          "Channel",
+          "Structured concurrency"
+        ],
+        "build_tools": ["Gradle", "Maven"],
+        "validation": ["Kotlin validators", "konform"],
+        "logging": ["kotlin-logging", "SLF4J", "Logback"],
+        "dependency_injection": ["Koin", "Kodein", "Dagger/Hilt"]
+      },
+      "prerequisites": {
+        "required": ["Programming basics", "OOP concepts"],
+        "recommended": ["Java knowledge", "Functional programming concepts"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Kotlin"],
+        "frameworks": ["Ktor", "Spring Boot", "Micronaut"],
+        "tools": ["Gradle", "IntelliJ IDEA", "ktlint", "detekt"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Medium to High - Exposed is Kotlin-native, can also use JPA",
+        "connection_pooling": "HikariCP (same as Java)",
+        "migration_management": "Flyway, Liquibase, Exposed DSL",
+        "common_patterns": [
+          "DSL-based queries (Exposed)",
+          "Repository pattern",
+          "Coroutine-based async access",
+          "Extension functions for queries"
+        ]
+      },
+      "key_skills": [
+        "Coroutines and async programming",
+        "Null safety",
+        "Functional programming",
+        "Interoperability with Java",
+        "DSL creation"
+      ]
+    },
+    {
+      "name": "laravel",
+      "type": "framework",
+      "category": "framework-specific",
+      "total_topics": 52,
+      "estimated_learning_hours": 140,
+      "roadmap_structure": {
+        "fundamentals": [
+          "MVC architecture",
+          "Routing",
+          "Controllers",
+          "Views (Blade)",
+          "Middleware",
+          "Request lifecycle"
+        ],
+        "eloquent_orm": [
+          "Models",
+          "Relationships (hasMany, belongsTo, etc.)",
+          "Query builder",
+          "Migrations",
+          "Seeders",
+          "Factories",
+          "Accessors and mutators",
+          "Scopes"
+        ],
+        "database": [
+          "Database configuration",
+          "Migrations",
+          "Schema builder",
+          "Query builder",
+          "Pagination",
+          "Database transactions"
+        ],
+        "authentication": [
+          "Laravel Breeze",
+          "Laravel Jetstream",
+          "Fortify",
+          "Sanctum (API)",
+          "Passport (OAuth2)",
+          "Gate and policies"
+        ],
+        "api_development": [
+          "API resources",
+          "API authentication",
+          "Rate limiting",
+          "API versioning"
+        ],
+        "validation": [
+          "Form requests",
+          "Validation rules",
+          "Custom validation",
+          "Error messages"
+        ],
+        "testing": [
+          "PHPUnit",
+          "Feature tests",
+          "Unit tests",
+          "Browser tests (Dusk)",
+          "Database testing",
+          "Mocking"
+        ],
+        "advanced_features": [
+          "Service container",
+          "Service providers",
+          "Facades",
+          "Contracts",
+          "Events and listeners",
+          "Queues and jobs",
+          "Task scheduling",
+          "Broadcasting"
+        ],
+        "frontend": [
+          "Blade templates",
+          "Livewire",
+          "Inertia.js",
+          "Laravel Mix/Vite",
+          "Asset bundling"
+        ],
+        "packages": [
+          "Laravel Horizon (Queue monitoring)",
+          "Laravel Telescope (Debugging)",
+          "Laravel Cashier (Billing)",
+          "Laravel Scout (Full-text search)",
+          "Laravel Socialite (OAuth)"
+        ],
+        "caching": [
+          "Cache configuration",
+          "Cache drivers",
+          "Cache tags",
+          "Model caching"
+        ],
+        "security": [
+          "CSRF protection",
+          "XSS prevention",
+          "SQL injection prevention",
+          "Encryption",
+          "Hashing"
+        ],
+        "deployment": [
+          "Laravel Forge",
+          "Laravel Vapor (Serverless)",
+          "Environment configuration",
+          "Optimization"
+        ]
+      },
+      "prerequisites": {
+        "required": ["PHP 8.0+", "Composer", "MVC concepts"],
+        "recommended": ["MySQL/PostgreSQL", "HTML/CSS", "JavaScript"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["PHP 8.0+"],
+        "frameworks": ["Laravel (built on Symfony components)"],
+        "tools": ["Composer", "Artisan CLI", "Laravel Valet/Homestead", "Tinker"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Very High - Eloquent is core to Laravel",
+        "connection_pooling": "Configured via database.php",
+        "migration_management": "Laravel migrations (artisan migrate)",
+        "common_patterns": [
+          "Active Record (Eloquent)",
+          "Query Builder",
+          "Model relationships",
+          "Eager loading to prevent N+1",
+          "Database transactions"
+        ]
+      },
+      "key_skills": [
+        "Eloquent ORM mastery",
+        "Artisan commands",
+        "Service container and DI",
+        "Queue and job processing",
+        "API development with Laravel"
+      ]
+    },
+    {
+      "name": "spring-boot",
+      "type": "framework",
+      "category": "framework-specific",
+      "total_topics": 55,
+      "estimated_learning_hours": 160,
+      "roadmap_structure": {
+        "fundamentals": [
+          "Spring Boot basics",
+          "Auto-configuration",
+          "Dependency injection",
+          "Spring Boot starter",
+          "Application properties/YAML",
+          "Spring Boot annotations"
+        ],
+        "web_development": [
+          "Spring MVC",
+          "RESTful APIs",
+          "Request mapping",
+          "Path variables",
+          "Request parameters",
+          "Response handling",
+          "Exception handling (@ControllerAdvice)"
+        ],
+        "data_access": [
+          "Spring Data JPA",
+          "Hibernate",
+          "Repository pattern",
+          "Query methods",
+          "Custom queries (@Query)",
+          "Specifications",
+          "Pagination and sorting",
+          "Transactions"
+        ],
+        "database": [
+          "DataSource configuration",
+          "Connection pooling (HikariCP)",
+          "Multiple datasources",
+          "Database migrations (Flyway, Liquibase)"
+        ],
+        "security": [
+          "Spring Security",
+          "Authentication",
+          "Authorization",
+          "JWT tokens",
+          "OAuth2",
+          "Method security",
+          "CORS configuration"
+        ],
+        "validation": [
+          "Bean Validation",
+          "Custom validators",
+          "Validation groups",
+          "@Valid annotation"
+        ],
+        "testing": [
+          "Spring Boot Test",
+          "MockMvc",
+          "MockBean",
+          "Integration tests",
+          "Testcontainers",
+          "WebTestClient"
+        ],
+        "reactive_programming": [
+          "Spring WebFlux",
+          "Reactor",
+          "Mono and Flux",
+          "Reactive repositories"
+        ],
+        "messaging": [
+          "Spring for Apache Kafka",
+          "Spring AMQP (RabbitMQ)",
+          "Spring JMS",
+          "Spring Cloud Stream"
+        ],
+        "caching": [
+          "Spring Cache abstraction",
+          "Cache providers (Redis, Ehcache)",
+          "Cache annotations",
+          "Cache configuration"
+        ],
+        "microservices": [
+          "Spring Cloud",
+          "Service discovery (Eureka)",
+          "API Gateway (Spring Cloud Gateway)",
+          "Config server",
+          "Circuit breaker (Resilience4j)",
+          "Distributed tracing (Sleuth, Zipkin)"
+        ],
+        "monitoring": [
+          "Spring Boot Actuator",
+          "Metrics",
+          "Health checks",
+          "Prometheus integration",
+          "Custom endpoints"
+        ],
+        "advanced_topics": [
+          "Async processing (@Async)",
+          "Scheduling (@Scheduled)",
+          "Events and listeners",
+          "Profiles",
+          "Custom auto-configuration",
+          "Aspect-Oriented Programming (AOP)"
+        ],
+        "api_documentation": [
+          "Swagger/OpenAPI",
+          "SpringDoc",
+          "API versioning"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Java 8+", "Spring Framework basics", "Maven/Gradle"],
+        "recommended": ["SQL", "REST principles", "Microservices concepts"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Java 8+", "Kotlin"],
+        "frameworks": ["Spring Boot", "Spring Framework"],
+        "tools": ["Maven", "Gradle", "IntelliJ IDEA", "Postman", "Docker"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Very High - JPA/Hibernate is default",
+        "connection_pooling": "HikariCP by default",
+        "migration_management": "Flyway or Liquibase integration",
+        "common_patterns": [
+          "Repository pattern (Spring Data)",
+          "JPA specifications for dynamic queries",
+          "DTO projection",
+          "Entity graphs for fetch optimization",
+          "Declarative transactions"
+        ]
+      },
+      "key_skills": [
+        "Spring ecosystem mastery",
+        "Dependency injection",
+        "RESTful API design",
+        "Microservices architecture",
+        "Spring Security implementation"
+      ]
+    },
+    {
+      "name": "data-engineer",
+      "type": "specialization",
+      "category": "cross-platform",
+      "total_topics": 58,
+      "estimated_learning_hours": 450,
+      "roadmap_structure": {
+        "fundamentals": [
+          "Programming (Python, Scala, Java)",
+          "SQL mastery",
+          "Data structures and algorithms",
+          "Distributed systems",
+          "Linux/Unix fundamentals"
+        ],
+        "databases": {
+          "relational": ["PostgreSQL", "MySQL", "Oracle", "SQL Server"],
+          "nosql": ["MongoDB", "Cassandra", "HBase", "DynamoDB"],
+          "columnar": ["Redshift", "BigQuery", "Snowflake"],
+          "time_series": ["InfluxDB", "TimescaleDB"]
+        },
+        "data_warehousing": [
+          "Star schema",
+          "Snowflake schema",
+          "Data modeling",
+          "Dimensional modeling",
+          "ETL vs ELT",
+          "Data vault"
+        ],
+        "big_data_frameworks": [
+          "Apache Hadoop",
+          "Apache Spark",
+          "Apache Flink",
+          "Apache Beam",
+          "MapReduce"
+        ],
+        "data_processing": [
+          "Batch processing",
+          "Stream processing",
+          "Apache Kafka",
+          "Apache Pulsar",
+          "AWS Kinesis",
+          "Google Pub/Sub"
+        ],
+        "workflow_orchestration": [
+          "Apache Airflow",
+          "Luigi",
+          "Prefect",
+          "Dagster",
+          "Azure Data Factory",
+          "AWS Step Functions"
+        ],
+        "cloud_platforms": {
+          "aws": ["S3", "Redshift", "EMR", "Glue", "Athena", "Lake Formation"],
+          "gcp": ["BigQuery", "Dataflow", "Dataproc", "Cloud Storage", "Pub/Sub"],
+          "azure": ["Azure Data Lake", "Synapse Analytics", "Data Factory", "Databricks"]
+        },
+        "data_lakes": [
+          "Delta Lake",
+          "Apache Iceberg",
+          "Apache Hudi",
+          "Data lake architecture"
+        ],
+        "programming_languages": {
+          "primary": ["Python (PySpark, Pandas)", "SQL"],
+          "secondary": ["Scala (Spark)", "Java"]
+        },
+        "python_libraries": [
+          "Pandas",
+          "PySpark",
+          "Dask",
+          "NumPy",
+          "SQLAlchemy",
+          "Polars"
+        ],
+        "data_quality": [
+          "Great Expectations",
+          "Deequ",
+          "Data validation",
+          "Data profiling",
+          "Data lineage"
+        ],
+        "version_control": ["Git", "DVC (Data Version Control)"],
+        "containerization": ["Docker", "Kubernetes"],
+        "monitoring": [
+          "Data pipeline monitoring",
+          "Prometheus",
+          "Grafana",
+          "ELK Stack"
+        ],
+        "data_governance": [
+          "Data cataloging (Apache Atlas, DataHub)",
+          "Metadata management",
+          "Data privacy (GDPR, CCPA)",
+          "Data security"
+        ],
+        "testing": [
+          "Unit testing data pipelines",
+          "Integration testing",
+          "Data validation tests"
+        ],
+        "performance_optimization": [
+          "Query optimization",
+          "Partitioning strategies",
+          "Indexing",
+          "Compression",
+          "Caching"
+        ]
+      },
+      "prerequisites": {
+        "required": ["SQL", "Python programming", "Data structures"],
+        "recommended": ["Distributed systems", "Statistics", "Database fundamentals"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Python", "SQL", "Scala", "Java"],
+        "frameworks": ["Apache Spark", "Apache Airflow", "dbt"],
+        "tools": ["Docker", "Git", "Kafka", "Cloud platforms (AWS/GCP/Azure)"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Low - Primarily SQL-based with some ORM for metadata",
+        "connection_pooling": "Critical for pipeline efficiency",
+        "migration_management": "Schema evolution strategies, backward compatibility",
+        "common_patterns": [
+          "Bulk loading",
+          "Incremental updates",
+          "Change Data Capture (CDC)",
+          "Slowly Changing Dimensions (SCD)",
+          "Upsert operations",
+          "Partitioning strategies"
+        ]
+      },
+      "key_skills": [
+        "ETL/ELT pipeline design",
+        "Big data processing",
+        "Data modeling",
+        "Cloud data platforms",
+        "Workflow orchestration",
+        "Performance optimization"
+      ]
+    },
+    {
+      "name": "data-analyst",
+      "type": "specialization",
+      "category": "cross-platform",
+      "total_topics": 42,
+      "estimated_learning_hours": 300,
+      "roadmap_structure": {
+        "fundamentals": [
+          "Statistics basics",
+          "Probability",
+          "Data analysis fundamentals",
+          "Business intelligence concepts",
+          "Critical thinking"
+        ],
+        "sql": [
+          "SQL basics",
+          "Joins",
+          "Aggregations",
+          "Window functions",
+          "CTEs",
+          "Subqueries",
+          "Query optimization"
+        ],
+        "programming": {
+          "primary": ["Python (Pandas, NumPy)", "R"],
+          "libraries": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"]
+        },
+        "databases": {
+          "relational": ["PostgreSQL", "MySQL", "SQL Server"],
+          "analytics": ["Snowflake", "BigQuery", "Redshift"],
+          "basics": ["Database design", "Normalization", "Indexes"]
+        },
+        "data_visualization": {
+          "tools": ["Tableau", "Power BI", "Looker", "Metabase", "Google Data Studio"],
+          "libraries": ["Matplotlib", "Seaborn", "Plotly", "ggplot2 (R)"]
+        },
+        "spreadsheets": [
+          "Excel advanced (VLOOKUP, Pivot tables, Power Query)",
+          "Google Sheets",
+          "Formulas and functions",
+          "Data cleaning in Excel"
+        ],
+        "statistics": [
+          "Descriptive statistics",
+          "Inferential statistics",
+          "Hypothesis testing",
+          "A/B testing",
+          "Regression analysis",
+          "Correlation"
+        ],
+        "data_cleaning": [
+          "Handling missing data",
+          "Outlier detection",
+          "Data transformation",
+          "Data validation",
+          "Data quality checks"
+        ],
+        "exploratory_data_analysis": [
+          "Data profiling",
+          "Distribution analysis",
+          "Correlation analysis",
+          "Pattern identification"
+        ],
+        "reporting": [
+          "Dashboard creation",
+          "KPI tracking",
+          "Report automation",
+          "Data storytelling",
+          "Presentation skills"
+        ],
+        "business_intelligence": [
+          "Data modeling for BI",
+          "Metrics definition",
+          "Business requirements gathering",
+          "Stakeholder communication"
+        ],
+        "tools": [
+          "Jupyter Notebook",
+          "Git (version control)",
+          "JIRA/Confluence",
+          "SQL clients (DBeaver, pgAdmin)"
+        ],
+        "advanced_topics": [
+          "Predictive analytics basics",
+          "Time series analysis",
+          "Cohort analysis",
+          "Funnel analysis",
+          "Customer segmentation"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Basic math", "Excel proficiency", "Analytical thinking"],
+        "recommended": ["Statistics basics", "SQL basics", "Business acumen"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["SQL", "Python", "R"],
+        "frameworks": ["Pandas", "NumPy", "Matplotlib"],
+        "tools": ["Tableau", "Power BI", "Excel", "Jupyter Notebook"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Very Low - Direct SQL queries are primary",
+        "connection_pooling": "Usually handled by BI tools",
+        "migration_management": "Not typically responsible for migrations",
+        "common_patterns": [
+          "Read-only queries",
+          "Aggregations and reporting",
+          "Materialized views usage",
+          "Query optimization for reports",
+          "Data export for analysis"
+        ]
+      },
+      "key_skills": [
+        "SQL proficiency",
+        "Data visualization",
+        "Statistical analysis",
+        "Business acumen",
+        "Communication skills",
+        "Critical thinking"
+      ]
+    },
+    {
+      "name": "bi-analyst",
+      "type": "specialization",
+      "category": "cross-platform",
+      "total_topics": 38,
+      "estimated_learning_hours": 280,
+      "roadmap_structure": {
+        "fundamentals": [
+          "Business intelligence concepts",
+          "Data warehousing basics",
+          "OLAP vs OLTP",
+          "Dimensional modeling",
+          "KPI definition"
+        ],
+        "sql": [
+          "Advanced SQL",
+          "Window functions",
+          "CTEs",
+          "Stored procedures",
+          "Views and materialized views",
+          "Query optimization"
+        ],
+        "bi_tools": {
+          "primary": ["Tableau", "Power BI", "Looker", "Qlik Sense"],
+          "secondary": ["Metabase", "Google Data Studio", "Sisense"]
+        },
+        "databases": {
+          "data_warehouses": ["Snowflake", "BigQuery", "Redshift", "Azure Synapse"],
+          "relational": ["SQL Server", "PostgreSQL", "Oracle"]
+        },
+        "data_modeling": [
+          "Star schema",
+          "Snowflake schema",
+          "Fact tables",
+          "Dimension tables",
+          "Bridge tables",
+          "Slowly Changing Dimensions"
+        ],
+        "etl_basics": [
+          "ETL concepts",
+          "Data transformation",
+          "Data quality",
+          "Incremental loads"
+        ],
+        "power_bi_specific": [
+          "Power Query",
+          "DAX (Data Analysis Expressions)",
+          "Power BI Service",
+          "Row-level security",
+          "Report design",
+          "Dashboard creation"
+        ],
+        "tableau_specific": [
+          "Tableau Desktop",
+          "Tableau Server/Cloud",
+          "Calculated fields",
+          "LOD expressions",
+          "Dashboard actions",
+          "Performance optimization"
+        ],
+        "analytics": [
+          "Descriptive analytics",
+          "Diagnostic analytics",
+          "Predictive analytics basics",
+          "Trend analysis",
+          "Cohort analysis"
+        ],
+        "reporting": [
+          "Dashboard design principles",
+          "Data storytelling",
+          "Visualization best practices",
+          "Report scheduling",
+          "Report automation",
+          "Self-service BI"
+        ],
+        "data_governance": [
+          "Data access control",
+          "Data security",
+          "Metadata management",
+          "Data lineage",
+          "Documentation"
+        ],
+        "business_skills": [
+          "Requirements gathering",
+          "Stakeholder management",
+          "Business process understanding",
+          "Domain knowledge",
+          "Communication skills"
+        ],
+        "advanced_features": [
+          "Embedded analytics",
+          "Real-time dashboards",
+          "Mobile BI",
+          "API integration",
+          "Custom visualizations"
+        ]
+      },
+      "prerequisites": {
+        "required": ["SQL proficiency", "Business fundamentals", "Excel advanced"],
+        "recommended": ["Statistics", "Data warehousing concepts", "Programming basics"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["SQL", "DAX (Power BI)", "Python (optional)"],
+        "frameworks": ["Power BI", "Tableau"],
+        "tools": ["SQL Server", "Snowflake", "Excel", "Git"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "None - Direct connections from BI tools",
+        "connection_pooling": "Managed by BI tool",
+        "migration_management": "Not responsible, but needs to understand schema changes",
+        "common_patterns": [
+          "Direct query vs import mode",
+          "Incremental refresh",
+          "Aggregation tables",
+          "Materialized views",
+          "Semantic layer design",
+          "Parameter-driven queries"
+        ]
+      },
+      "key_skills": [
+        "BI tool expertise (Tableau/Power BI)",
+        "Data visualization",
+        "Dimensional modeling",
+        "DAX/LOD expressions",
+        "Dashboard design",
+        "Business communication"
+      ]
+    },
+    {
+      "name": "mongodb",
+      "type": "database",
+      "category": "tool-specific",
+      "total_topics": 35,
+      "estimated_learning_hours": 120,
+      "roadmap_structure": {
+        "basics": [
+          "NoSQL concepts",
+          "Document-oriented databases",
+          "MongoDB architecture",
+          "Installation and setup",
+          "MongoDB Shell (mongosh)",
+          "MongoDB Compass"
+        ],
+        "crud_operations": [
+          "Insert documents",
+          "Find/Query documents",
+          "Update documents",
+          "Delete documents",
+          "Bulk operations"
+        ],
+        "data_modeling": [
+          "Document structure",
+          "Embedded documents",
+          "References",
+          "Schema design patterns",
+          "Denormalization",
+          "One-to-Many relationships",
+          "Many-to-Many relationships"
+        ],
+        "querying": [
+          "Query operators",
+          "Comparison operators",
+          "Logical operators",
+          "Element operators",
+          "Array operators",
+          "Projection",
+          "Sorting and limiting"
+        ],
+        "aggregation": [
+          "Aggregation pipeline",
+          "Match stage",
+          "Group stage",
+          "Project stage",
+          "Sort, skip, limit",
+          "Lookup (joins)",
+          "Unwind",
+          "Advanced aggregation operators"
+        ],
+        "indexing": [
+          "Single field indexes",
+          "Compound indexes",
+          "Multikey indexes",
+          "Text indexes",
+          "Geospatial indexes",
+          "Index properties (unique, sparse)",
+          "Index performance analysis"
+        ],
+        "replication": [
+          "Replica sets",
+          "Primary/Secondary nodes",
+          "Elections",
+          "Read preferences",
+          "Write concerns",
+          "Oplog"
+        ],
+        "sharding": [
+          "Horizontal scaling",
+          "Shard keys",
+          "Chunk distribution",
+          "Config servers",
+          "Mongos router",
+          "Sharding strategies"
+        ],
+        "transactions": [
+          "ACID properties in MongoDB",
+          "Multi-document transactions",
+          "Transaction best practices"
+        ],
+        "security": [
+          "Authentication",
+          "Authorization (RBAC)",
+          "Encryption at rest",
+          "Encryption in transit (TLS/SSL)",
+          "Auditing"
+        ],
+        "backup_and_recovery": [
+          "mongodump/mongorestore",
+          "Atlas backups",
+          "Point-in-time recovery",
+          "Backup strategies"
+        ],
+        "performance": [
+          "Query optimization",
+          "Explain plans",
+          "Profiling",
+          "Connection pooling",
+          "Monitoring tools"
+        ],
+        "mongodb_atlas": [
+          "Cloud deployment",
+          "Cluster configuration",
+          "Atlas search",
+          "Atlas triggers",
+          "Atlas charts"
+        ],
+        "drivers_and_integration": [
+          "Node.js driver",
+          "Python (PyMongo, Motor)",
+          "Java driver",
+          "Mongoose (ODM for Node.js)",
+          "Spring Data MongoDB"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Database basics", "JSON understanding"],
+        "recommended": ["Programming basics", "NoSQL concepts"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["JavaScript (mongosh)", "Any application language"],
+        "frameworks": ["Mongoose (Node.js)", "Spring Data MongoDB"],
+        "tools": ["MongoDB Compass", "Studio 3T", "Robo 3T"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "ODM (Object Document Mapper) - Mongoose for Node.js",
+        "connection_pooling": "Built into drivers, configurable pool size",
+        "migration_management": "Schema-less, but version control for schema changes recommended",
+        "common_patterns": [
+          "Embedded documents for one-to-one and one-to-few",
+          "References for one-to-many and many-to-many",
+          "Denormalization for read performance",
+          "Aggregation pipeline for complex queries",
+          "Bucket pattern for time-series",
+          "Computed pattern for expensive calculations"
+        ]
+      },
+      "key_skills": [
+        "Document modeling",
+        "Aggregation pipeline",
+        "Sharding strategy",
+        "Replication setup",
+        "Performance tuning",
+        "Schema design patterns"
+      ]
+    },
+    {
+      "name": "postgresql-dba",
+      "type": "database_administration",
+      "category": "tool-specific",
+      "total_topics": 48,
+      "estimated_learning_hours": 320,
+      "roadmap_structure": {
+        "fundamentals": [
+          "RDBMS concepts",
+          "PostgreSQL architecture",
+          "Installation and configuration",
+          "psql command-line tool",
+          "PostgreSQL system catalogs"
+        ],
+        "sql_mastery": [
+          "DDL (Data Definition Language)",
+          "DML (Data Manipulation Language)",
+          "DCL (Data Control Language)",
+          "TCL (Transaction Control Language)",
+          "Advanced queries",
+          "Window functions",
+          "CTEs and recursive queries"
+        ],
+        "database_design": [
+          "Normalization",
+          "Entity-Relationship modeling",
+          "Schema design",
+          "Constraints (PK, FK, Check, Unique)",
+          "Denormalization strategies"
+        ],
+        "indexing": [
+          "B-tree indexes",
+          "Hash indexes",
+          "GiST indexes",
+          "GIN indexes",
+          "BRIN indexes",
+          "Partial indexes",
+          "Expression indexes",
+          "Index-only scans"
+        ],
+        "performance_tuning": [
+          "EXPLAIN and EXPLAIN ANALYZE",
+          "Query optimization",
+          "Vacuum and autovacuum",
+          "Analyze statistics",
+          "Connection pooling (PgBouncer)",
+          "Configuration tuning (postgresql.conf)",
+          "Shared buffers, work_mem, maintenance_work_mem"
+        ],
+        "replication": [
+          "Streaming replication",
+          "Logical replication",
+          "WAL (Write-Ahead Logging)",
+          "Standby servers",
+          "Failover and switchover",
+          "Replication slots"
+        ],
+        "high_availability": [
+          "Patroni",
+          "repmgr",
+          "pgpool-II",
+          "Load balancing",
+          "Automatic failover",
+          "Connection pooling"
+        ],
+        "backup_and_recovery": [
+          "pg_dump/pg_restore",
+          "pg_basebackup",
+          "Point-in-Time Recovery (PITR)",
+          "Continuous archiving",
+          "Backup strategies",
+          "WAL archiving"
+        ],
+        "security": [
+          "Authentication methods (md5, scram-sha-256)",
+          "pg_hba.conf configuration",
+          "Role-based access control",
+          "Row-level security",
+          "Encryption (SSL/TLS)",
+          "Auditing (pgAudit)",
+          "Data masking"
+        ],
+        "monitoring": [
+          "pg_stat views",
+          "pg_stat_statements",
+          "Log analysis",
+          "Prometheus + postgres_exporter",
+          "Grafana dashboards",
+          "pgAdmin",
+          "pgBadger"
+        ],
+        "transactions_and_concurrency": [
+          "MVCC (Multi-Version Concurrency Control)",
+          "Isolation levels",
+          "Locking mechanisms",
+          "Deadlock detection",
+          "Transaction ID wraparound"
+        ],
+        "partitioning": [
+          "Table partitioning",
+          "Range partitioning",
+          "List partitioning",
+          "Hash partitioning",
+          "Partition pruning",
+          "Partition-wise joins"
+        ],
+        "advanced_features": [
+          "Full-text search",
+          "JSON/JSONB support",
+          "Foreign Data Wrappers (FDW)",
+          "Extensions (PostGIS, pg_stat_statements, etc.)",
+          "Stored procedures and functions",
+          "Triggers",
+          "Views and materialized views"
+        ],
+        "upgrades_and_migrations": [
+          "Major version upgrades",
+          "pg_upgrade",
+          "Logical replication for migrations",
+          "Zero-downtime upgrades",
+          "Compatibility checks"
+        ]
+      },
+      "prerequisites": {
+        "required": ["SQL proficiency", "Linux/Unix administration", "Database fundamentals"],
+        "recommended": ["Scripting (Bash, Python)", "Networking", "Storage systems"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["SQL", "PL/pgSQL", "Bash", "Python"],
+        "frameworks": ["None (database system)"],
+        "tools": ["psql", "pgAdmin", "PgBouncer", "Patroni", "pgBadger"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "N/A - DBA perspective focuses on database internals",
+        "connection_pooling": "PgBouncer, pgpool-II for external pooling",
+        "migration_management": "Support for Flyway, Liquibase, custom scripts",
+        "common_patterns": [
+          "Master-slave replication",
+          "Multi-master with logical replication",
+          "Partitioning for large tables",
+          "Materialized views for reporting",
+          "Foreign Data Wrappers for federated queries",
+          "Index strategies for query performance"
+        ]
+      },
+      "key_skills": [
+        "Performance tuning",
+        "Replication and HA",
+        "Backup and recovery",
+        "Security management",
+        "Monitoring and troubleshooting",
+        "Upgrade planning"
+      ]
+    },
+    {
+      "name": "redis",
+      "type": "database",
+      "category": "tool-specific",
+      "total_topics": 32,
+      "estimated_learning_hours": 100,
+      "roadmap_structure": {
+        "basics": [
+          "In-memory data structure store",
+          "Redis architecture",
+          "Installation and configuration",
+          "Redis CLI",
+          "Redis data types overview"
+        ],
+        "data_types": [
+          "Strings",
+          "Lists",
+          "Sets",
+          "Sorted Sets (ZSets)",
+          "Hashes",
+          "Bitmaps",
+          "HyperLogLogs",
+          "Streams",
+          "Geospatial indexes"
+        ],
+        "commands": [
+          "String commands (GET, SET, INCR, etc.)",
+          "List commands (LPUSH, RPUSH, LPOP, etc.)",
+          "Set commands (SADD, SMEMBERS, etc.)",
+          "Hash commands (HSET, HGET, etc.)",
+          "Sorted set commands (ZADD, ZRANGE, etc.)",
+          "Key management (DEL, EXISTS, EXPIRE, TTL)"
+        ],
+        "persistence": [
+          "RDB (Redis Database) snapshots",
+          "AOF (Append-Only File)",
+          "Persistence strategies",
+          "Backup and restore"
+        ],
+        "replication": [
+          "Master-slave replication",
+          "Replication configuration",
+          "Read replicas",
+          "Replication lag"
+        ],
+        "high_availability": [
+          "Redis Sentinel",
+          "Automatic failover",
+          "Monitoring",
+          "Configuration"
+        ],
+        "clustering": [
+          "Redis Cluster",
+          "Sharding",
+          "Hash slots",
+          "Cluster topology",
+          "Resharding"
+        ],
+        "pub_sub": [
+          "Publish/Subscribe pattern",
+          "Channels",
+          "Pattern matching",
+          "Message broadcasting"
+        ],
+        "transactions": [
+          "MULTI/EXEC",
+          "WATCH for optimistic locking",
+          "DISCARD",
+          "Atomic operations"
+        ],
+        "lua_scripting": [
+          "EVAL command",
+          "Script caching",
+          "Atomic script execution",
+          "Use cases"
+        ],
+        "security": [
+          "Authentication (requirepass)",
+          "ACL (Access Control Lists)",
+          "Encryption (TLS/SSL)",
+          "Protected mode",
+          "Command renaming"
+        ],
+        "performance": [
+          "Memory optimization",
+          "Eviction policies",
+          "Pipeline usage",
+          "Connection pooling",
+          "Benchmarking (redis-benchmark)",
+          "Monitoring (INFO command)"
+        ],
+        "use_cases": [
+          "Caching",
+          "Session storage",
+          "Real-time analytics",
+          "Leaderboards",
+          "Rate limiting",
+          "Message queues",
+          "Pub/Sub messaging"
+        ],
+        "clients_and_integration": [
+          "redis-py (Python)",
+          "ioredis (Node.js)",
+          "Jedis (Java)",
+          "StackExchange.Redis (.NET)",
+          "Spring Data Redis"
+        ],
+        "redis_modules": [
+          "RedisJSON",
+          "RedisGraph",
+          "RedisSearch",
+          "RedisTimeSeries",
+          "RedisBloom"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Basic database concepts", "Command-line proficiency"],
+        "recommended": ["Key-value store concepts", "Caching strategies"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Any (client libraries available)", "Lua (for scripting)"],
+        "frameworks": ["Spring Data Redis", "Node.js ioredis"],
+        "tools": ["redis-cli", "RedisInsight", "redis-benchmark"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "Low - Typically used as cache or data structure server",
+        "connection_pooling": "Critical - connection pools in all clients",
+        "migration_management": "Rarely needed - schema-less",
+        "common_patterns": [
+          "Cache-aside pattern",
+          "Write-through cache",
+          "Write-behind cache",
+          "Session store",
+          "Leaderboard with sorted sets",
+          "Rate limiter with sliding window",
+          "Distributed locking",
+          "Pub/Sub for real-time updates"
+        ]
+      },
+      "key_skills": [
+        "Data structure selection",
+        "Caching strategies",
+        "Replication setup",
+        "Performance optimization",
+        "Pub/Sub messaging",
+        "Lua scripting"
+      ]
+    },
+    {
+      "name": "sql",
+      "type": "language",
+      "category": "language-specific",
+      "total_topics": 35,
+      "estimated_learning_hours": 150,
+      "roadmap_structure": {
+        "basics": [
+          "Database concepts",
+          "Tables, rows, columns",
+          "Data types",
+          "SELECT statement",
+          "WHERE clause",
+          "ORDER BY",
+          "LIMIT/TOP"
+        ],
+        "filtering_and_sorting": [
+          "Comparison operators",
+          "Logical operators (AND, OR, NOT)",
+          "IN, BETWEEN, LIKE",
+          "IS NULL/IS NOT NULL",
+          "DISTINCT",
+          "ORDER BY (ASC/DESC)"
+        ],
+        "joins": [
+          "INNER JOIN",
+          "LEFT JOIN (LEFT OUTER JOIN)",
+          "RIGHT JOIN (RIGHT OUTER JOIN)",
+          "FULL OUTER JOIN",
+          "CROSS JOIN",
+          "SELF JOIN",
+          "Multiple joins"
+        ],
+        "aggregate_functions": [
+          "COUNT",
+          "SUM",
+          "AVG",
+          "MIN/MAX",
+          "GROUP BY",
+          "HAVING clause"
+        ],
+        "subqueries": [
+          "Scalar subqueries",
+          "Correlated subqueries",
+          "Subqueries in WHERE",
+          "Subqueries in FROM",
+          "EXISTS/NOT EXISTS"
+        ],
+        "data_manipulation": [
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "UPSERT (INSERT ... ON CONFLICT)",
+          "TRUNCATE"
+        ],
+        "data_definition": [
+          "CREATE TABLE",
+          "ALTER TABLE",
+          "DROP TABLE",
+          "Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL)",
+          "Indexes (CREATE INDEX)"
+        ],
+        "advanced_queries": [
+          "UNION/UNION ALL",
+          "INTERSECT",
+          "EXCEPT/MINUS",
+          "CASE expressions",
+          "COALESCE and NULLIF"
+        ],
+        "window_functions": [
+          "ROW_NUMBER",
+          "RANK and DENSE_RANK",
+          "PARTITION BY",
+          "LAG and LEAD",
+          "Running totals",
+          "Moving averages"
+        ],
+        "ctes": [
+          "Common Table Expressions (WITH clause)",
+          "Recursive CTEs",
+          "Multiple CTEs"
+        ],
+        "transactions": [
+          "BEGIN/START TRANSACTION",
+          "COMMIT",
+          "ROLLBACK",
+          "SAVEPOINT",
+          "Isolation levels"
+        ],
+        "views": [
+          "CREATE VIEW",
+          "Updatable views",
+          "Materialized views"
+        ],
+        "stored_procedures_and_functions": [
+          "CREATE PROCEDURE",
+          "CREATE FUNCTION",
+          "Parameters",
+          "Control flow (IF, CASE, LOOP)"
+        ],
+        "triggers": [
+          "BEFORE triggers",
+          "AFTER triggers",
+          "INSERT/UPDATE/DELETE triggers"
+        ],
+        "performance": [
+          "Query optimization",
+          "Indexes and their impact",
+          "EXPLAIN/EXPLAIN ANALYZE",
+          "Avoiding N+1 queries",
+          "Query execution plans"
+        ],
+        "string_functions": [
+          "CONCAT",
+          "SUBSTRING",
+          "UPPER/LOWER",
+          "TRIM",
+          "LENGTH",
+          "REPLACE"
+        ],
+        "date_functions": [
+          "DATE, TIME, TIMESTAMP",
+          "DATE arithmetic",
+          "EXTRACT",
+          "DATE_TRUNC",
+          "Age and interval"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Basic computer literacy", "Logical thinking"],
+        "recommended": ["Database concepts", "Set theory basics"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["SQL (with dialects: PostgreSQL, MySQL, SQL Server, Oracle)"],
+        "frameworks": ["N/A - SQL is a query language"],
+        "tools": ["pgAdmin", "DBeaver", "MySQL Workbench", "SQL Server Management Studio"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "N/A - SQL is the underlying language used by ORMs",
+        "connection_pooling": "Handled at application level",
+        "migration_management": "SQL scripts for schema changes",
+        "common_patterns": [
+          "Parameterized queries for security",
+          "Prepared statements",
+          "Batch operations",
+          "Transaction wrapping",
+          "Index usage optimization",
+          "Join optimization"
+        ]
+      },
+      "key_skills": [
+        "Complex query writing",
+        "Join mastery",
+        "Aggregations and grouping",
+        "Window functions",
+        "Query optimization",
+        "Understanding execution plans"
+      ]
+    },
+    {
+      "name": "datastructures-and-algorithms",
+      "type": "fundamentals",
+      "category": "cross-platform",
+      "total_topics": 60,
+      "estimated_learning_hours": 350,
+      "roadmap_structure": {
+        "complexity_analysis": [
+          "Big O notation",
+          "Time complexity",
+          "Space complexity",
+          "Best/Average/Worst case",
+          "Amortized analysis"
+        ],
+        "arrays_and_strings": [
+          "Array manipulation",
+          "Two-pointer technique",
+          "Sliding window",
+          "String manipulation",
+          "StringBuilder/StringBuffer"
+        ],
+        "linked_lists": [
+          "Singly linked list",
+          "Doubly linked list",
+          "Circular linked list",
+          "Fast and slow pointers",
+          "Reverse linked list"
+        ],
+        "stacks_and_queues": [
+          "Stack implementation",
+          "Queue implementation",
+          "Deque",
+          "Priority queue",
+          "Monotonic stack/queue"
+        ],
+        "hash_tables": [
+          "Hash function",
+          "Collision resolution",
+          "HashMap/Dictionary",
+          "HashSet",
+          "Applications"
+        ],
+        "trees": [
+          "Binary tree",
+          "Binary search tree (BST)",
+          "Balanced trees (AVL, Red-Black)",
+          "Tree traversal (inorder, preorder, postorder, level-order)",
+          "Lowest common ancestor",
+          "Trie (Prefix tree)",
+          "Segment tree",
+          "Fenwick tree (Binary Indexed Tree)"
+        ],
+        "heaps": [
+          "Min heap",
+          "Max heap",
+          "Heap operations",
+          "Heapify",
+          "Top K problems"
+        ],
+        "graphs": [
+          "Graph representation (adjacency matrix, adjacency list)",
+          "BFS (Breadth-First Search)",
+          "DFS (Depth-First Search)",
+          "Topological sort",
+          "Cycle detection",
+          "Connected components",
+          "Shortest path (Dijkstra, Bellman-Ford)",
+          "Minimum spanning tree (Kruskal, Prim)",
+          "Union-Find (Disjoint Set)"
+        ],
+        "sorting_algorithms": [
+          "Bubble sort",
+          "Selection sort",
+          "Insertion sort",
+          "Merge sort",
+          "Quick sort",
+          "Heap sort",
+          "Counting sort",
+          "Radix sort",
+          "Bucket sort"
+        ],
+        "searching_algorithms": [
+          "Linear search",
+          "Binary search",
+          "Binary search variations",
+          "Ternary search"
+        ],
+        "recursion": [
+          "Recursion basics",
+          "Backtracking",
+          "Divide and conquer",
+          "Memoization",
+          "Tail recursion"
+        ],
+        "dynamic_programming": [
+          "DP fundamentals",
+          "1D DP",
+          "2D DP",
+          "Knapsack problems",
+          "Longest Common Subsequence",
+          "Longest Increasing Subsequence",
+          "Matrix chain multiplication",
+          "DP on trees",
+          "DP with bitmasks"
+        ],
+        "greedy_algorithms": [
+          "Greedy approach",
+          "Activity selection",
+          "Huffman coding",
+          "Fractional knapsack",
+          "Job sequencing"
+        ],
+        "bit_manipulation": [
+          "Bitwise operators",
+          "Bit tricks",
+          "Count set bits",
+          "Power of 2",
+          "XOR properties"
+        ],
+        "advanced_topics": [
+          "KMP algorithm",
+          "Rabin-Karp algorithm",
+          "Suffix arrays",
+          "Manacher's algorithm",
+          "Z-algorithm",
+          "Advanced graph algorithms (Floyd-Warshall, A*)",
+          "Network flow"
+        ],
+        "problem_patterns": [
+          "Two pointers",
+          "Sliding window",
+          "Fast and slow pointers",
+          "Merge intervals",
+          "Cyclic sort",
+          "Binary search patterns",
+          "BFS/DFS patterns",
+          "DP patterns"
+        ],
+        "practice_platforms": [
+          "LeetCode",
+          "HackerRank",
+          "Codeforces",
+          "CodeChef",
+          "AtCoder",
+          "Project Euler"
+        ]
+      },
+      "prerequisites": {
+        "required": ["Programming in at least one language", "Basic math"],
+        "recommended": ["Discrete mathematics", "Logic and proofs"]
+      },
+      "language_framework_tool_distinctions": {
+        "languages": ["Any programming language (Python, Java, C++, JavaScript common)"],
+        "frameworks": ["N/A - fundamental concepts"],
+        "tools": ["IDEs", "Online judges", "Debuggers", "Visualization tools"]
+      },
+      "database_integration_patterns": {
+        "orm_usage": "N/A - These are fundamental CS concepts",
+        "connection_pooling": "N/A",
+        "migration_management": "N/A",
+        "common_patterns": [
+          "Algorithm design patterns",
+          "Problem-solving patterns",
+          "Optimization techniques"
+        ]
+      },
+      "key_skills": [
+        "Problem-solving",
+        "Algorithmic thinking",
+        "Complexity analysis",
+        "Pattern recognition",
+        "Code optimization",
+        "Debugging complex logic"
+      ]
+    }
+  ],
+  "key_domains": {
+    "language_specific": {
+      "description": "Programming languages with their ecosystems",
+      "roles": ["nodejs", "python", "java", "golang", "rust", "php", "cpp", "kotlin"],
+      "characteristics": [
+        "Deep focus on language syntax and idioms",
+        "Language-specific frameworks and libraries",
+        "Ecosystem-specific tools and best practices",
+        "Community conventions and patterns"
+      ]
+    },
+    "framework_specific": {
+      "description": "Frameworks built on top of specific languages",
+      "roles": ["laravel", "spring-boot"],
+      "characteristics": [
+        "Opinionated architecture",
+        "Built-in conventions",
+        "Rich ecosystem of plugins/extensions",
+        "Abstraction over common patterns"
+      ]
+    },
+    "cross_platform": {
+      "description": "Roles that transcend specific technologies",
+      "roles": ["backend", "data-engineer", "data-analyst", "bi-analyst", "datastructures-and-algorithms"],
+      "characteristics": [
+        "Technology agnostic concepts",
+        "Applicable across multiple languages/tools",
+        "Focus on principles and patterns",
+        "Broad skill requirements"
+      ]
+    },
+    "tool_specific": {
+      "description": "Specific database or tool expertise",
+      "roles": ["mongodb", "postgresql-dba", "redis", "sql"],
+      "characteristics": [
+        "Deep tool/database knowledge",
+        "Administration and optimization",
+        "Integration patterns",
+        "Tool-specific best practices"
+      ]
+    }
+  },
+  "learning_path_analysis": {
+    "beginner_friendly": {
+      "roles": ["sql", "python", "nodejs", "php"],
+      "estimated_hours": "150-200",
+      "reasoning": "Lower entry barrier, extensive learning resources, immediate practical applications"
+    },
+    "intermediate": {
+      "roles": ["backend", "java", "golang", "kotlin", "laravel", "spring-boot", "mongodb", "redis", "data-analyst"],
+      "estimated_hours": "140-280",
+      "reasoning": "Requires programming foundation, more complex concepts, ecosystem knowledge needed"
+    },
+    "advanced": {
+      "roles": ["rust", "cpp", "postgresql-dba", "data-engineer", "bi-analyst", "datastructures-and-algorithms"],
+      "estimated_hours": "280-450",
+      "reasoning": "Complex concepts, systems-level knowledge, extensive prerequisites, deep expertise required"
+    }
+  },
+  "common_prerequisites": {
+    "all_roles": [
+      "Basic computer literacy",
+      "Problem-solving skills",
+      "Logical thinking"
+    ],
+    "programming_roles": [
+      "Programming fundamentals",
+      "Version control (Git)",
+      "Command line basics",
+      "Text editor/IDE proficiency"
+    ],
+    "backend_roles": [
+      "HTTP/HTTPS understanding",
+      "REST API concepts",
+      "Database basics",
+      "Authentication/Authorization concepts"
+    ],
+    "data_roles": [
+      "SQL proficiency",
+      "Statistics basics",
+      "Data analysis fundamentals",
+      "Excel/Spreadsheet proficiency"
+    ],
+    "database_admin_roles": [
+      "Linux/Unix administration",
+      "Networking basics",
+      "Scripting (Bash/Python)",
+      "Storage systems understanding"
+    ]
+  },
+  "agent_capabilities": {
+    "code_generation": {
+      "applicable_roles": ["nodejs", "python", "java", "golang", "rust", "php", "cpp", "kotlin", "laravel", "spring-boot"],
+      "capabilities": [
+        "Generate boilerplate code",
+        "Create API endpoints",
+        "Implement CRUD operations",
+        "Write tests",
+        "Create middleware/interceptors"
+      ]
+    },
+    "query_generation": {
+      "applicable_roles": ["sql", "postgresql-dba", "mongodb", "redis", "data-analyst", "data-engineer", "bi-analyst"],
+      "capabilities": [
+        "Generate complex SQL queries",
+        "Create aggregation pipelines",
+        "Optimize query performance",
+        "Design database schemas",
+        "Create ETL scripts"
+      ]
+    },
+    "architecture_design": {
+      "applicable_roles": ["backend", "data-engineer", "spring-boot"],
+      "capabilities": [
+        "Design system architecture",
+        "Create data pipelines",
+        "Design microservices",
+        "Plan scaling strategies",
+        "Design database schemas"
+      ]
+    },
+    "troubleshooting": {
+      "applicable_roles": ["postgresql-dba", "backend", "data-engineer"],
+      "capabilities": [
+        "Debug performance issues",
+        "Analyze query plans",
+        "Identify bottlenecks",
+        "Suggest optimizations",
+        "Diagnose connection issues"
+      ]
+    },
+    "learning_assistance": {
+      "applicable_roles": ["datastructures-and-algorithms"],
+      "capabilities": [
+        "Explain algorithms",
+        "Provide practice problems",
+        "Review code solutions",
+        "Explain complexity analysis",
+        "Suggest learning paths"
+      ]
+    }
+  },
+  "suggested_skills_by_role_type": {
+    "language_roles": {
+      "technical_skills": [
+        "Language syntax mastery",
+        "Framework proficiency",
+        "Package management",
+        "Testing frameworks",
+        "Build tools",
+        "Debugging",
+        "Performance optimization"
+      ],
+      "soft_skills": [
+        "Code review",
+        "Documentation",
+        "Collaboration",
+        "Continuous learning"
+      ]
+    },
+    "database_roles": {
+      "technical_skills": [
+        "Query optimization",
+        "Indexing strategies",
+        "Backup and recovery",
+        "Replication setup",
+        "Security management",
+        "Monitoring",
+        "Performance tuning"
+      ],
+      "soft_skills": [
+        "Capacity planning",
+        "Disaster recovery planning",
+        "Stakeholder communication",
+        "Documentation"
+      ]
+    },
+    "data_analysis_roles": {
+      "technical_skills": [
+        "SQL mastery",
+        "Data visualization",
+        "Statistical analysis",
+        "ETL/ELT",
+        "BI tools proficiency",
+        "Data modeling",
+        "Programming (Python/R)"
+      ],
+      "soft_skills": [
+        "Business acumen",
+        "Data storytelling",
+        "Stakeholder management",
+        "Requirements gathering",
+        "Presentation skills"
+      ]
+    },
+    "backend_generalist": {
+      "technical_skills": [
+        "API design",
+        "Database design",
+        "Security best practices",
+        "Caching strategies",
+        "Message queues",
+        "Containerization",
+        "CI/CD"
+      ],
+      "soft_skills": [
+        "System design",
+        "Architecture decisions",
+        "Team collaboration",
+        "Code review",
+        "Mentoring"
+      ]
+    }
+  },
+  "career_progression": {
+    "backend_developer_path": [
+      "Learn programming fundamentals (datastructures-and-algorithms)",
+      "Master a backend language (python/nodejs/java/golang)",
+      "Learn framework (laravel/spring-boot)",
+      "Understand databases (sql, mongodb, postgresql-dba)",
+      "Master backend role (backend)",
+      "Specialize (data-engineer or stay full-stack)"
+    ],
+    "data_career_path": [
+      "Learn SQL (sql)",
+      "Data analysis (data-analyst)",
+      "Business Intelligence (bi-analyst)",
+      "Data Engineering (data-engineer)",
+      "Specialize in database (postgresql-dba, mongodb, redis)"
+    ],
+    "systems_programming_path": [
+      "Strong fundamentals (datastructures-and-algorithms)",
+      "Learn C++ (cpp)",
+      "Learn Rust or Go (rust/golang)",
+      "Database internals (postgresql-dba, redis)",
+      "High-performance systems"
+    ]
+  },
+  "database_integration_summary": {
+    "high_orm_usage": {
+      "roles": ["python", "java", "kotlin", "php", "laravel", "spring-boot"],
+      "orm_tools": ["Django ORM", "SQLAlchemy", "Hibernate", "JPA", "Eloquent", "Spring Data"],
+      "patterns": ["Active Record", "Data Mapper", "Repository pattern"]
+    },
+    "medium_orm_usage": {
+      "roles": ["nodejs", "golang", "rust"],
+      "orm_tools": ["Sequelize", "TypeORM", "Prisma", "GORM", "Diesel", "sqlx"],
+      "patterns": ["Query builder", "Type-safe queries", "Manual SQL when needed"]
+    },
+    "low_orm_usage": {
+      "roles": ["cpp", "data-analyst", "bi-analyst"],
+      "orm_tools": ["Direct database drivers", "ODB (rarely)", "BI tool connections"],
+      "patterns": ["Direct SQL", "Prepared statements", "Manual connection management"]
+    },
+    "specialized_patterns": {
+      "roles": ["data-engineer", "postgresql-dba", "mongodb", "redis"],
+      "patterns": [
+        "Bulk loading",
+        "ETL/ELT pipelines",
+        "Change Data Capture",
+        "Replication strategies",
+        "Sharding",
+        "Caching patterns",
+        "Document modeling"
+      ]
+    }
+  },
+  "estimated_total_learning_hours": {
+    "all_roles_combined": 3980,
+    "average_per_role": 199,
+    "note": "Hours are estimates and vary based on prior experience, learning pace, and depth of mastery required"
+  },
+  "methodology": {
+    "analysis_based_on": [
+      "Industry-standard roadmaps (roadmap.sh)",
+      "Official documentation",
+      "Community best practices",
+      "Job market requirements",
+      "Typical learning curves"
+    ],
+    "topic_counting": "Unique topics across all categories within each role",
+    "hour_estimation": "Based on beginner to intermediate proficiency level, assuming 10-20 hours per week study schedule"
+  }
+}
