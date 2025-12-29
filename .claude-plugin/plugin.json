@@ -1,7 +1,7 @@
 {
-  "name": "ios-assistant",
+  "name": "ios-development-assistant",
   "version": "1.0.0",
-  "description": "Comprehensive learning platform with 75+ developer roadmaps covering 7 specialized domains. Interactive agents guide developers through structured learning paths from beginner to advanced levels.",
+  "description": "iOS development plugin with agents for Swift, UIKit, SwiftUI, and App Store deployment",
   "author": "Roadmap Team",
   "homepage": "https://roadmap.sh",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
@@ -20,48 +20,13 @@
     "fundamentals"
   ],
   "agents": [
-    {
-      "id": "ai-ml-specialist",
-      "name": "AI & Machine Learning Specialist",
-      "description": "Expert in AI engineering, machine learning, data science, MLOps, prompt engineering, AI agents, and red teaming",
-      "path": "agents/01-ai-ml-specialist.md"
-    },
-    {
-      "id": "frontend-expert",
-      "name": "Frontend & Web Technologies Expert",
-      "description": "Specialist in web development, frameworks, mobile development, APIs, and web technologies",
-      "path": "agents/02-frontend-expert.md"
-    },
-    {
-      "id": "backend-database",
-      "name": "Backend & Database Specialist",
-      "description": "Expert in backend development, programming languages, databases, data engineering, and system design",
-      "path": "agents/03-backend-database.md"
-    },
-    {
-      "id": "devops-cloud",
-      "name": "DevOps & Cloud Infrastructure Specialist",
-      "description": "Specialist in containerization, orchestration, cloud platforms, infrastructure as code, and edge computing",
-      "path": "agents/04-devops-cloud.md"
-    },
-    {
-      "id": "specialized-roles",
-      "name": "Specialized Roles & Architecture Expert",
-      "description": "Expert in software architecture, system design, security, blockchain, management, and specialized technical roles",
-      "path": "agents/05-specialized-roles.md"
-    },
-    {
-      "id": "mobile-game",
-      "name": "Mobile & Game Development Specialist",
-      "description": "Specialist in mobile app development, game development, UX design, QA, and product management",
-      "path": "agents/06-mobile-game.md"
-    },
-    {
-      "id": "foundational-tools",
-      "name": "Foundational Skills & Tools Expert",
-      "description": "Expert in computer science fundamentals, version control, Linux, and shell scripting - the foundation for all specializations",
-      "path": "agents/07-foundational-tools.md"
-    }
+    "./agents/01-ios-fundamentals.md",
+    "./agents/02-uikit-development.md",
+    "./agents/03-swiftui-development.md",
+    "./agents/04-data-persistence.md",
+    "./agents/05-networking-apis.md",
+    "./agents/06-testing-debugging.md",
+    "./agents/07-app-store.md"
   ],
   "commands": [
     {
@@ -86,50 +51,13 @@
     }
   ],
   "skills": [
-    {
-      "id": "ai-foundations",
-      "path": "skills/ai-foundations/SKILL.md"
-    },
-    {
-      "id": "machine-learning-practice",
-      "path": "skills/machine-learning-practice/SKILL.md"
-    },
-    {
-      "id": "frontend-frameworks",
-      "path": "skills/frontend-frameworks/SKILL.md"
-    },
-    {
-      "id": "backend-development",
-      "path": "skills/backend-development/SKILL.md"
-    },
-    {
-      "id": "database-design",
-      "path": "skills/database-design/SKILL.md"
-    },
-    {
-      "id": "cloud-infrastructure",
-      "path": "skills/cloud-infrastructure/SKILL.md"
-    },
-    {
-      "id": "system-architecture",
-      "path": "skills/system-architecture/SKILL.md"
-    },
-    {
-      "id": "mobile-development",
-      "path": "skills/mobile-development/SKILL.md"
-    },
-    {
-      "id": "game-development",
-      "path": "skills/game-development/SKILL.md"
-    },
-    {
-      "id": "devops-practices",
-      "path": "skills/devops-practices/SKILL.md"
-    },
-    {
-      "id": "fundamentals",
-      "path": "skills/fundamentals/SKILL.md"
-    }
+    "./skills/ios-fundamentals/SKILL.md",
+    "./skills/uikit-development/SKILL.md",
+    "./skills/swiftui-development/SKILL.md",
+    "./skills/ios-data/SKILL.md",
+    "./skills/ios-networking/SKILL.md",
+    "./skills/ios-testing/SKILL.md",
+    "./skills/app-store/SKILL.md"
   ],
   "hooks": [
     {
