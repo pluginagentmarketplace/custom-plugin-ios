@@ -1,6 +1,9 @@
 ---
 name: mobile-development
 description: Mobile app development for iOS and Android including native development with Swift and Kotlin, cross-platform with Flutter, and mobile best practices.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile Development

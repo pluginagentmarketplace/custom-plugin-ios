@@ -1,6 +1,9 @@
 ---
 name: devops-practices
 description: DevOps practices including CI/CD pipelines, monitoring, logging, deployment automation, infrastructure automation, and production operations.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps Practices

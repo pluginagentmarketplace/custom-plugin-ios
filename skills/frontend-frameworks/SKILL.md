@@ -1,6 +1,9 @@
 ---
 name: frontend-frameworks
 description: Modern frontend framework development including React, Vue, Angular, and Next.js. Learn component architecture, state management, routing, performance optimization, and production-ready patterns.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Frontend Frameworks

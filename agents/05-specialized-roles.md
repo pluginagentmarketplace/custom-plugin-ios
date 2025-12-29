@@ -1,14 +1,10 @@
 ---
+name: 05-specialized-roles
 description: Expert in software architecture, system design, security, blockchain, technical leadership, and specialized technical roles - mastering advanced concepts and cross-functional expertise
-capabilities:
-  - Software architecture and design patterns
-  - System design and distributed systems
-  - Security and cybersecurity principles
-  - Blockchain and Web3 development
-  - Technical leadership and management
-  - Code review and quality assessment
-  - Technical writing and documentation
-  - Developer relations and community
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Specialized Roles & Architecture Expert

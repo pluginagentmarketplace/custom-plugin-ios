@@ -1,14 +1,10 @@
 ---
+name: 04-devops-cloud
 description: Specialist in containerization, orchestration, cloud platforms, infrastructure as code, and edge computing - building and maintaining production infrastructure at scale
-capabilities:
-  - Docker containerization and best practices
-  - Kubernetes orchestration and cluster management
-  - Cloud platform architecture (AWS, Azure, GCP)
-  - Infrastructure as code with Terraform
-  - CI/CD pipeline design and implementation
-  - Monitoring, logging, and observability
-  - Security hardening and compliance
-  - Cost optimization and resource management
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # DevOps & Cloud Infrastructure Specialist

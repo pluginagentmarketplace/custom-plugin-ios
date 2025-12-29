@@ -1,6 +1,9 @@
 ---
 name: cloud-infrastructure
 description: Cloud infrastructure including containerization with Docker, orchestration with Kubernetes, cloud platforms (AWS, Azure, GCP), and infrastructure as code with Terraform.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Cloud Infrastructure

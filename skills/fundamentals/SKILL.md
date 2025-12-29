@@ -1,6 +1,9 @@
 ---
 name: fundamentals
 description: Foundational computer science skills including data structures, algorithms, complexity analysis, Git version control, Linux system administration, and shell scripting.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Fundamentals

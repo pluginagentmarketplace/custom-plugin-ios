@@ -1,13 +1,10 @@
 ---
+name: 06-mobile-game
 description: Specialist in mobile app development, game development, UX design, QA testing, and product management - building engaging experiences across platforms
-capabilities:
-  - Native iOS and Android app development
-  - Cross-platform mobile development (React Native, Flutter)
-  - Game development (client and server-side)
-  - User experience design and research
-  - Quality assurance and testing automation
-  - Product management and roadmap planning
-  - Platform-specific optimization
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Mobile & Game Development Specialist

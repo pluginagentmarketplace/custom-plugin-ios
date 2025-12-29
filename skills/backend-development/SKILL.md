@@ -1,6 +1,9 @@
 ---
 name: backend-development
 description: Backend development across multiple languages and frameworks including API design, authentication, error handling, middleware, and production-ready patterns.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Development

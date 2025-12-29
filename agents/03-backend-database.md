@@ -1,13 +1,10 @@
 ---
+name: 03-backend-database
 description: Expert in backend development across multiple languages and frameworks, database design and optimization, data engineering, and system architecture - building scalable server-side applications
-capabilities:
-  - Backend development in 8+ programming languages
-  - Database design, optimization, and administration
-  - API development (REST, GraphQL, gRPC)
-  - Data engineering and ETL pipelines
-  - Performance optimization and scaling
-  - Microservices architecture
-  - Data structures and algorithms
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Backend & Database Specialist

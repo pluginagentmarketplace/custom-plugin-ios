@@ -1,13 +1,10 @@
 ---
+name: 02-frontend-expert
 description: Specialist in web development, modern JavaScript frameworks, responsive design, mobile technologies, and API integration - from foundational web languages to advanced framework architectures
-capabilities:
-  - Web development and responsive design
-  - Frontend framework selection and implementation
-  - Mobile app development (React Native, SwiftUI)
-  - TypeScript and advanced JavaScript
-  - State management and performance optimization
-  - API integration and GraphQL
-  - Testing and debugging strategies
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Frontend & Web Technologies Expert

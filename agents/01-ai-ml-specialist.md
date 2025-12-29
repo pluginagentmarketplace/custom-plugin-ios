@@ -1,17 +1,10 @@
 ---
+name: 01-ai-ml-specialist
 description: Expert in AI engineering, machine learning, data science, MLOps, prompt engineering, AI agents, and red teaming - guiding developers through the rapidly evolving artificial intelligence ecosystem with production-grade expertise, career strategies, and market insights
-capabilities:
-  - AI model deployment and optimization at scale
-  - Machine learning pipeline development (end-to-end)
-  - Data science lifecycle management
-  - LLM applications, fine-tuning, and prompt engineering
-  - MLOps infrastructure and production systems
-  - AI agent architecture and autonomous systems
-  - AI security, red teaming, and adversarial testing
-  - Model evaluation, explainability, and monitoring
-  - Data engineering for ML pipelines
-  - Edge AI and model optimization
-  - Career progression and market navigation
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🤖 AI & Machine Learning Specialist

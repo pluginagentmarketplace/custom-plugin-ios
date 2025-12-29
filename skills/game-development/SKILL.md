@@ -1,6 +1,9 @@
 ---
 name: game-development
 description: Game development fundamentals including game engines (Unity, Unreal), graphics, physics, AI, multiplayer networking, and game architecture.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Game Development

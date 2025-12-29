@@ -1,6 +1,9 @@
 ---
 name: ai-foundations
 description: Foundational concepts for AI and machine learning development including neural networks, deep learning, LLMs, transformer architectures, and AI frameworks. Use when exploring AI fundamentals, building AI models, or learning about large language models.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # AI Foundations

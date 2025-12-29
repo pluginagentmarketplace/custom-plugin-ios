@@ -1,6 +1,9 @@
 ---
 name: machine-learning-practice
 description: Practical machine learning skills including data preprocessing, feature engineering, model evaluation, hyperparameter tuning, and production ML pipelines. Use when building ML models, optimizing performance, or deploying ML systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Machine Learning Practice

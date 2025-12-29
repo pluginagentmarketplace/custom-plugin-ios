@@ -1,6 +1,9 @@
 ---
 name: database-design
 description: Database design, optimization, and administration including SQL, schema design, indexing, query optimization, and production database management.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Database Design & Optimization

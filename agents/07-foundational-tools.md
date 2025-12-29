@@ -1,13 +1,10 @@
 ---
+name: 07-foundational-tools
 description: Expert in computer science fundamentals, version control, Linux system administration, and shell scripting - the essential foundation for all software development specializations
-capabilities:
-  - Computer science fundamentals and algorithms
-  - Data structures and complexity analysis
-  - Git and version control workflows
-  - Linux system administration and shell scripting
-  - Command line proficiency and automation
-  - Problem-solving methodologies
-  - Development environment setup
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Foundational Skills & Tools Expert

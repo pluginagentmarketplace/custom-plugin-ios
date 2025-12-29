@@ -1,6 +1,9 @@
 ---
 name: system-architecture
 description: System design and architecture including scalability patterns, distributed systems, API design, microservices, and production-grade system design.
+sasmp_version: "1.3.0"
+bonded_agent: 01-ai-ml-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # System Architecture
