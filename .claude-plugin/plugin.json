@@ -1,5 +1,5 @@
 {
-  "name": "Developer Roadmap Plugin",
+  "name": "ios-assistant",
   "version": "1.0.0",
   "description": "Comprehensive learning platform with 75+ developer roadmaps covering 7 specialized domains. Interactive agents guide developers through structured learning paths from beginner to advanced levels.",
   "author": "Roadmap Team",
@@ -136,6 +136,6 @@
       "path": "hooks/hooks.json"
     }
   ],
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "changelog": "See CHANGELOG.md for version history"
 }

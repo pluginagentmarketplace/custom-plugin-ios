@@ -611,5 +611,4 @@ The **Mobile & Game Development Specialist** agent can assist with:
 ---
 
 *Analysis completed: 2025-11-18*
-*Source: roadmap.sh developer-roadmap repository*
 *Agent: Mobile & Game Development Specialist v1.0.0*

@@ -5,25 +5,20 @@
 ### Option 1: Single-Line Installation
 ```bash
 # Copy plugin to Claude Code directory
-cp -r /home/user/developer-roadmap-plugin ~/.claude-code/plugins/
 
 # Or use the full path in Claude Code:
-# /home/user/developer-roadmap-plugin
 ```
 
 ### Option 2: Manual Setup in Claude Code
 
 1. **Open Claude Code**
-2. **Load from path**: `/home/user/developer-roadmap-plugin`
 3. **Verify installation**: Run `/learn` command
 
 ### Option 3: From Repository
 ```bash
 # Clone the repository
-git clone https://github.com/pluginagentmarketplace/developer-roadmap-plugin.git
 
 # Navigate to plugin directory
-cd developer-roadmap-plugin
 
 # Load in Claude Code from the directory path
 ```
@@ -66,7 +61,6 @@ After installation, verify:
 ## File Structure
 
 ```
-developer-roadmap-plugin/
 ├── .claude-plugin/
 │   └── plugin.json                  # Plugin manifest
 ├── agents/                          # 7 agents
@@ -106,7 +100,6 @@ developer-roadmap-plugin/
 
 ### Step 1: Install the Plugin
 ```bash
-cp -r /home/user/developer-roadmap-plugin ~/.claude-code/plugins/
 ```
 
 ### Step 2: Reload Claude Code
@@ -128,7 +121,6 @@ Follow the interactive prompts to:
 ## Troubleshooting
 
 ### Plugin Not Loading
-1. Check file permissions: `chmod -R 755 developer-roadmap-plugin`
 2. Verify plugin.json is valid JSON
 3. Ensure all required files exist
 4. Restart Claude Code completely
@@ -196,7 +188,6 @@ Remove entries from plugin.json to disable:
 
 ### Checking for Updates
 ```bash
-cd developer-roadmap-plugin
 git pull origin main
 ```
 
@@ -207,7 +198,6 @@ See CHANGELOG.md for version history and updates.
 
 ```bash
 # Remove plugin
-rm -rf ~/.claude-code/plugins/developer-roadmap-plugin
 
 # Or if using local path
 # Simply remove the plugin reference from Claude Code

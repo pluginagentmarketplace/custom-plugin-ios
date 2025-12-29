@@ -1,3 +1,9 @@
+---
+name: compare-paths
+description: paths
+allowed-tools: Read
+---
+
 # /compare-paths
 
 Compare different career and learning paths to help you make the best decision.

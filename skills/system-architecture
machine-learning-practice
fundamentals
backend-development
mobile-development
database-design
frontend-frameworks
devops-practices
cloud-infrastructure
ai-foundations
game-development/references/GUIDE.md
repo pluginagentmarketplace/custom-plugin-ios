@@ -1,0 +1,11 @@
+# system-architecture
+machine-learning-practice
+fundamentals
+backend-development
+mobile-development
+database-design
+frontend-frameworks
+devops-practices
+cloud-infrastructure
+ai-foundations
+game-development Guide

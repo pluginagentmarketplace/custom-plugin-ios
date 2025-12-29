@@ -1,260 +1,266 @@
-# Developer Roadmap Plugin
+<div align="center">
 
-A comprehensive Claude Code plugin for learning and mastering 75+ developer specializations. Built from the official [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) repository.
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Ios+Assistant;7+Agents+%7C+11+Skills;Claude+Code+Plugin" alt="Ios Assistant" />
 
-## 🚀 Features
+<br/>
 
-### 7 Expert Agents
-- **AI & Machine Learning Specialist** - 7 AI/ML roadmaps
-- **Frontend & Web Technologies Expert** - 13 web framework roadmaps
-- **Backend & Database Specialist** - 20 backend and database roadmaps
-- **DevOps & Cloud Infrastructure Specialist** - 6 cloud and infrastructure roadmaps
-- **Specialized Roles & Architecture Expert** - 9 specialized technical roles
-- **Mobile & Game Development Specialist** - 9 mobile and game development roadmaps
-- **Foundational Skills & Tools Expert** - 4 foundational roadmaps
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-ios/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-### 11 Comprehensive Skills
-- AI Foundations & Machine Learning Practice
-- Frontend Frameworks & Backend Development
-- Database Design & Cloud Infrastructure
-- System Architecture & Mobile Development
-- Game Development & DevOps Practices
-- Fundamentals (CS, Git, Linux, Bash)
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-11-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
-### 4 Interactive Commands
-- **`/learn`** - Personalized learning path recommendations
-- **`/browse-roadmap`** - Explore 75+ roadmaps by category
-- **`/assess`** - Knowledge assessment and gap analysis
-- **`/compare-paths`** - Compare different specializations
+<br/>
 
-### 1,000+ Hours of Content
-- Complete learning paths from beginner to advanced
-- Real-world best practices and patterns
-- Career progression guidance
-- Industry trends and market insights
-
-## 📥 Installation
-
-### Option 1: Single-Line Installation
-```bash
-curl -fsSL https://raw.githubusercontent.com/pluginagentmarketplace/developer-roadmap-plugin/main/install.sh | bash
-```
-
-### Option 2: Manual Installation
-```bash
-# Clone the repository
-git clone https://github.com/pluginagentmarketplace/developer-roadmap-plugin.git
-
-# In Claude Code, load from local directory
-# Use: ./developer-roadmap-plugin
-```
-
-### Option 3: From Marketplace
-```
-Claude Code Marketplace → Search "Developer Roadmap" → Add Plugin
-```
-
-## 🎯 Quick Start
-
-### Step 1: Start Learning
-```
-/learn
-```
-I'll help you choose the perfect learning path based on your goals and experience.
-
-### Step 2: Explore Available Resources
-```
-/browse-roadmap frontend
-```
-Discover all available roadmaps in your area of interest.
-
-### Step 3: Assess Your Knowledge
-```
-/assess
-```
-Evaluate your current skill level and identify gaps.
-
-### Step 4: Compare Career Paths
-```
-/compare-paths react angular vue
-```
-Compare different specializations to find your best fit.
-
-## 📚 Learning Paths (Examples)
-
-### Frontend Developer (6-8 months)
-```
-HTML/CSS/JavaScript → React/Vue → Advanced Patterns → Full-Stack
-```
-
-### Backend Engineer (9-12 months)
-```
-Fundamentals → Choose Language → Databases → System Design → Production
-```
-
-### AI/ML Engineer (6-18 months)
-```
-Prompt Engineering → AI Fundamentals → ML Practice → MLOps/Specialization
-```
-
-### DevOps Specialist (12-18 months)
-```
-Docker → Kubernetes → Cloud (AWS/Azure) → Terraform → Monitoring/Logging
-```
-
-### Full-Stack Engineer (12-15 months)
-```
-Frontend → Backend → Databases → DevOps → Full-Stack Integration
-```
-
-## 🏗️ Plugin Architecture
-
-```
-developer-roadmap-plugin/
-├── .claude-plugin/
-│   └── plugin.json                    # Plugin manifest
-├── agents/
-│   ├── 01-ai-ml-specialist.md
-│   ├── 02-frontend-expert.md
-│   ├── 03-backend-database.md
-│   ├── 04-devops-cloud.md
-│   ├── 05-specialized-roles.md
-│   ├── 06-mobile-game.md
-│   └── 07-foundational-tools.md
-├── commands/
-│   ├── learn.md
-│   ├── browse-roadmap.md
-│   ├── assess.md
-│   └── compare-paths.md
-├── skills/
-│   ├── ai-foundations/SKILL.md
-│   ├── machine-learning-practice/SKILL.md
-│   ├── frontend-frameworks/SKILL.md
-│   ├── backend-development/SKILL.md
-│   ├── database-design/SKILL.md
-│   ├── cloud-infrastructure/SKILL.md
-│   ├── system-architecture/SKILL.md
-│   ├── mobile-development/SKILL.md
-│   ├── game-development/SKILL.md
-│   ├── devops-practices/SKILL.md
-│   └── fundamentals/SKILL.md
-├── hooks/
-│   └── hooks.json
-└── README.md
-```
-
-## 🎓 Roadmaps Included
-
-### AI & Machine Learning (7)
-AI Engineer, AI Data Scientist, AI Agents, AI Red Teaming, Machine Learning, MLOps, Prompt Engineering
-
-### Frontend & Web (13)
-HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, Next.js, Swift UI, GraphQL, API Design, and more
-
-### Backend & Databases (20)
-Backend, Node.js, Python, Java, Go, Rust, PHP, C++, Kotlin, Laravel, Spring Boot, SQL, PostgreSQL, MongoDB, Redis, Data Engineer, Data Analyst, BI Analyst, DSA
-
-### DevOps & Cloud (6)
-DevOps, Docker, Kubernetes, AWS, Terraform, Cloudflare
-
-### Mobile & Games (9)
-Android, iOS, Flutter, Game Developer, Server-Side Games, UX Design, Design Systems, QA, Product Manager
-
-### Specialized Roles (9)
-Software Architect, System Design, Engineering Manager, Code Review, Technical Writer, Developer Relations, Blockchain, Cyber Security
-
-### Foundations (4)
-Computer Science, Git/GitHub, Linux, Shell/Bash
-
-## 💡 Usage Examples
-
-### Learning a New Technology
-```
-User: "I want to learn React"
-Agent: Recommends React learning path, prerequisites, estimated hours
-Skills: frontend-frameworks
-Projects: 5 progressively complex React apps
-Timeline: 3-4 months
-```
-
-### Career Transition
-```
-User: "I'm switching from marketing to tech"
-Agent: Suggests frontend as entry point
-Path: HTML/CSS/JS → React → Full-Stack
-Timeline: 6-8 months
-Support: Beginner-friendly resources
-```
-
-### System Design Interview Prep
-```
-User: "Preparing for FAANG system design interview"
-Agent: Activates specialized-roles agent
-Skills: system-architecture
-Topics: Scalability, databases, caching, microservices
-Practice: Interview-style design questions
-```
-
-### Full-Stack Development
-```
-User: "Build complete applications"
-Path: Frontend → Backend → DevOps
-Skills: frontend-frameworks, backend-development, cloud-infrastructure
-Projects: End-to-end full-stack applications
-```
-
-## 🔄 Continuous Updates
-
-This plugin automatically stays current with:
-- Latest developer-roadmap repository updates
-- Emerging technologies and trends
-- Industry best practices
-- New learning resources
-
-## 📊 Statistics
-
-| Metric | Value |
-|--------|-------|
-| **Total Roadmaps** | 75+ |
-| **Total Topics** | 3,000+ |
-| **Learning Hours** | 1,000+ |
-| **Specializations** | 7 |
-| **Skills** | 11 |
-| **Commands** | 4 |
-| **Agents** | 7 |
-
-## 🤝 Contributing
-
-Contributions welcome! Help improve:
-- Roadmap content
-- New specializations
-- Better examples
-- Additional resources
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
-## 🔗 Resources
-
-- **Original Repository**: [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
-- **Live Site**: [roadmap.sh](https://roadmap.sh)
-- **Claude Code Docs**: [docs.claude.com](https://docs.claude.com)
-
-## 💬 Support
-
-- Found a bug? Open an issue
-- Want to suggest a feature? Open a discussion
-- Need help? Check the documentation or ask Claude!
-
-## 🌟 Feedback
-
-Love the plugin? Leave a star! Have suggestions? We'd love to hear them.
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-ios)
 
 ---
 
-**Ready to master your craft?** Start with `/learn` today!
+### What is this?
 
-Built with ❤️ for developers, by developers.
+> **Ios Assistant** is a Claude Code plugin with **7 agents** and **11 skills** for ios development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
+
+```bash
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-ios
+
+# Step 2️⃣ Install the plugin
+/plugin install ios-assistant@pluginagentmarketplace-ios
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
+```
+
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
+
+```bash
+# Clone the repository
+git clone https://github.com/pluginagentmarketplace/custom-plugin-ios.git
+cd custom-plugin-ios
+
+# Load locally
+/plugin load .
+
+# Restart Claude Code
+```
+
+</details>
+
+### ✅ Verify Installation
+
+After restart, you should see these agents:
+
+```
+ios-assistant:02-frontend-expert
+ios-assistant:07-foundational-tools
+ios-assistant:03-backend-database
+ios-assistant:04-devops-cloud
+ios-assistant:01-ai-ml-specialist
+... and 2 more
+```
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for ios tasks |
+| 🛠️ **11 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
+
+---
+
+## 🤖 Agents
+
+### 7 Specialized Agents
+
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **02-frontend-expert** | Specialist in web development, modern JavaScript frameworks, |
+| 2 | **07-foundational-tools** | Expert in computer science fundamentals, version control, Li |
+| 3 | **03-backend-database** | Expert in backend development across multiple languages and  |
+| 4 | **04-devops-cloud** | Specialist in containerization, orchestration, cloud platfor |
+| 5 | **01-ai-ml-specialist** | Expert in AI engineering, machine learning, data science, ML |
+| 6 | **06-mobile-game** | Specialist in mobile app development, game development, UX d |
+| 7 | **05-specialized-roles** | Expert in software architecture, system design, security, bl |
+
+---
+
+## 🛠️ Skills
+
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `system-architecture` | System design and architecture including scalability pattern | `Skill("ios-assistant:system-architecture")` |
+| `machine-learning-practice` | Practical machine learning skills including data preprocessi | `Skill("ios-assistant:machine-learning-practice")` |
+| `fundamentals` | Foundational computer science skills including data structur | `Skill("ios-assistant:fundamentals")` |
+| `backend-development` | Backend development across multiple languages and frameworks | `Skill("ios-assistant:backend-development")` |
+| `mobile-development` | Mobile app development for iOS and Android including native  | `Skill("ios-assistant:mobile-development")` |
+| `database-design` | Database design, optimization, and administration including  | `Skill("ios-assistant:database-design")` |
+| `frontend-frameworks` | Modern frontend framework development including React, Vue,  | `Skill("ios-assistant:frontend-frameworks")` |
+| `devops-practices` | DevOps practices including CI/CD pipelines, monitoring, logg | `Skill("ios-assistant:devops-practices")` |
+| `cloud-infrastructure` | Cloud infrastructure including containerization with Docker, | `Skill("ios-assistant:cloud-infrastructure")` |
+| `ai-foundations` | Foundational concepts for AI and machine learning developmen | `Skill("ios-assistant:ai-foundations")` |
+| ... | +1 more | See skills/ directory |
+
+---
+
+## ⌨️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/learn` | /learn |
+| `/assess` | /assess |
+| `/compare-paths` | paths |
+| `/browse-roadmap` | roadmap |
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
+custom-plugin-ios/
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 11 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
+```
+
+</details>
+
+---
+
+## 📅 Metadata
+
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 11 |
+| **Commands** | 4 |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Claude Code Community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
+
+</div>

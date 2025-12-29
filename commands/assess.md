@@ -1,3 +1,9 @@
+---
+name: assess
+description: /assess
+allowed-tools: Read
+---
+
 # /assess
 
 Evaluate your knowledge level and get personalized learning recommendations.

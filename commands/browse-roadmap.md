@@ -1,3 +1,9 @@
+---
+name: browse-roadmap
+description: roadmap
+allowed-tools: Read
+---
+
 # /browse-roadmap
 
 Explore and filter the complete collection of 75+ developer roadmaps.

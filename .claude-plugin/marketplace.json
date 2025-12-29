@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-ios",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ios-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for ios development",
+      "version": "1.0.0"
+    }
+  ]
+}
