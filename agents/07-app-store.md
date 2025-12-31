@@ -5,6 +5,12 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - app-store
+triggers:
+  - "ios app"
+  - "ios"
+  - "iphone"
 version: "2.0.0"
 last_updated: "2024-12"
 ---
