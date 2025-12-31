@@ -31,22 +31,22 @@
   "commands": [
     {
       "name": "learn",
-      "path": "commands/learn.md",
+      "path": "./commands/learn.md",
       "description": "Start guided learning path selection for your career goals"
     },
     {
       "name": "browse-roadmap",
-      "path": "commands/browse-roadmap.md",
+      "path": "./commands/browse-roadmap.md",
       "description": "Explore and filter all 75+ available roadmaps by role, technology, or difficulty"
     },
     {
       "name": "assess",
-      "path": "commands/assess.md",
+      "path": "./commands/assess.md",
       "description": "Evaluate your current knowledge level and get personalized learning recommendations"
     },
     {
       "name": "compare-paths",
-      "path": "commands/compare-paths.md",
+      "path": "./commands/compare-paths.md",
       "description": "Compare learning paths between different roles to find the best fit for your goals"
     }
   ],
@@ -61,7 +61,7 @@
   ],
   "hooks": [
     {
-      "path": "hooks/hooks.json"
+      "path": "./hooks/hooks.json"
     }
   ],
   "license": "SEE LICENSE IN LICENSE",
