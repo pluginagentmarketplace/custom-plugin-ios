@@ -59,11 +59,6 @@
     "./skills/ios-testing/SKILL.md",
     "./skills/app-store/SKILL.md"
   ],
-  "hooks": [
-    {
-      "path": "./hooks/hooks.json"
-    }
-  ],
   "license": "SEE LICENSE IN LICENSE",
   "changelog": "See CHANGELOG.md for version history"
 }
